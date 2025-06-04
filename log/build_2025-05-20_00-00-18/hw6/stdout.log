@@ -1,0 +1,4 @@
+[ 25%] Built target oscope
+[ 50%] Built target data_receiver
+[ 75%] Built target limiter
+[ 87%] [32mBuilding CXX object CMakeFiles/data_sender.dir/src/data_sender.cpp.o[0m

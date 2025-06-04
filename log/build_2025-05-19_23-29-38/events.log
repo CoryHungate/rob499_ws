@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000492] (-) JobUnselected: {'identifier': 'hw2'}
+[0.000675] (-) JobUnselected: {'identifier': 'hw4'}
+[0.000766] (-) JobUnselected: {'identifier': 'hw5'}
+[0.000855] (-) JobUnselected: {'identifier': 'hw6'}
+[0.000903] (-) JobUnselected: {'identifier': 'rob499_msgs'}
+[0.000964] (-) JobUnselected: {'identifier': 'rob599_basic'}
+[0.001003] (-) JobUnselected: {'identifier': 'rob599_basic_cpp'}
+[0.001043] (-) JobUnselected: {'identifier': 'rob599_more'}
+[0.001073] (-) JobUnselected: {'identifier': 'rob599_msgs'}
+[0.001145] (-) JobUnselected: {'identifier': 'rob599_stage'}
+[0.001220] (hw3) JobQueued: {'identifier': 'hw3', 'dependencies': OrderedDict()}
+[0.002996] (hw3) JobStarted: {'identifier': 'hw3'}
+[0.099263] (-) TimerEvent: {}
+[0.202619] (-) TimerEvent: {}
+[0.303188] (-) TimerEvent: {}
+[0.404831] (-) TimerEvent: {}
+[0.508135] (-) TimerEvent: {}
+[0.609424] (-) TimerEvent: {}
+[0.721382] (-) TimerEvent: {}
+[0.826129] (-) TimerEvent: {}
+[0.928722] (-) TimerEvent: {}
+[1.045912] (-) TimerEvent: {}
+[1.155103] (-) TimerEvent: {}
+[1.255908] (-) TimerEvent: {}
+[1.356785] (-) TimerEvent: {}
+[1.459616] (-) TimerEvent: {}
+[1.560607] (-) TimerEvent: {}
+[1.661422] (-) TimerEvent: {}
+[1.762103] (-) TimerEvent: {}
+[1.862796] (-) TimerEvent: {}
+[1.963470] (-) TimerEvent: {}
+[2.063905] (-) TimerEvent: {}
+[2.166473] (-) TimerEvent: {}
+[2.267606] (-) TimerEvent: {}
+[2.369568] (-) TimerEvent: {}
+[2.503191] (-) TimerEvent: {}
+[2.614564] (-) TimerEvent: {}
+[2.715072] (-) TimerEvent: {}
+[2.826256] (-) TimerEvent: {}
+[2.833184] (hw3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hw3', 'build', '--build-base', '/home/hungatec/rob499_ws/build/hw3/build', 'install', '--record', '/home/hungatec/rob499_ws/build/hw3/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hungatec/rob499_ws/src/hw3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib:/home/hungatec/rob499_ws/install/rob499_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'OLDPWD': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2209', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hungatec/rob499_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2180,unix/Ubuntu24:/tmp/.ICE-unix/2180', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3216d1aa_b168_472d_8f8a_eb34c937b235', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LYSP62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/hw3', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hungatec/rob499_ws/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_more/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw4/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.929275] (-) TimerEvent: {}
+[3.032143] (-) TimerEvent: {}
+[3.202535] (hw3) StdoutLine: {'line': b'running egg_info\n'}
+[3.202765] (-) TimerEvent: {}
+[3.204859] (hw3) StdoutLine: {'line': b'creating ../../build/hw3/hw3.egg-info\n'}
+[3.258290] (hw3) StdoutLine: {'line': b'writing ../../build/hw3/hw3.egg-info/PKG-INFO\n'}
+[3.262461] (hw3) StdoutLine: {'line': b'writing dependency_links to ../../build/hw3/hw3.egg-info/dependency_links.txt\n'}
+[3.262660] (hw3) StdoutLine: {'line': b'writing entry points to ../../build/hw3/hw3.egg-info/entry_points.txt\n'}
+[3.262730] (hw3) StdoutLine: {'line': b'writing requirements to ../../build/hw3/hw3.egg-info/requires.txt\n'}
+[3.262791] (hw3) StdoutLine: {'line': b'writing top-level names to ../../build/hw3/hw3.egg-info/top_level.txt\n'}
+[3.262851] (hw3) StdoutLine: {'line': b"writing manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'\n"}
+[3.307529] (-) TimerEvent: {}
+[3.322276] (hw3) StdoutLine: {'line': b"reading manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'\n"}
+[3.322807] (hw3) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.323860] (hw3) StdoutLine: {'line': b"writing manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'\n"}
+[3.324540] (hw3) StdoutLine: {'line': b'running build\n'}
+[3.325216] (hw3) StdoutLine: {'line': b'running build_py\n'}
+[3.326304] (hw3) StdoutLine: {'line': b'creating /home/hungatec/rob499_ws/build/hw3/build\n'}
+[3.326577] (hw3) StdoutLine: {'line': b'creating /home/hungatec/rob499_ws/build/hw3/build/lib\n'}
+[3.328069] (hw3) StdoutLine: {'line': b'creating /home/hungatec/rob499_ws/build/hw3/build/lib/hw3\n'}
+[3.328803] (hw3) StdoutLine: {'line': b'copying hw3/__init__.py -> /home/hungatec/rob499_ws/build/hw3/build/lib/hw3\n'}
+[3.329056] (hw3) StdoutLine: {'line': b'copying hw3/data_receiver.py -> /home/hungatec/rob499_ws/build/hw3/build/lib/hw3\n'}
+[3.329269] (hw3) StdoutLine: {'line': b'copying hw3/data_sender.py -> /home/hungatec/rob499_ws/build/hw3/build/lib/hw3\n'}
+[3.329814] (hw3) StdoutLine: {'line': b'running install\n'}
+[3.339552] (hw3) StdoutLine: {'line': b'running install_lib\n'}
+[3.365347] (hw3) StdoutLine: {'line': b'creating /home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages/hw3\n'}
+[3.367540] (hw3) StdoutLine: {'line': b'copying /home/hungatec/rob499_ws/build/hw3/build/lib/hw3/__init__.py -> /home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages/hw3\n'}
+[3.369209] (hw3) StdoutLine: {'line': b'copying /home/hungatec/rob499_ws/build/hw3/build/lib/hw3/data_receiver.py -> /home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages/hw3\n'}
+[3.369899] (hw3) StdoutLine: {'line': b'copying /home/hungatec/rob499_ws/build/hw3/build/lib/hw3/data_sender.py -> /home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages/hw3\n'}
+[3.371458] (hw3) StdoutLine: {'line': b'byte-compiling /home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages/hw3/__init__.py to __init__.cpython-312.pyc\n'}
+[3.371884] (hw3) StdoutLine: {'line': b'byte-compiling /home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages/hw3/data_receiver.py to data_receiver.cpython-312.pyc\n'}
+[3.375574] (hw3) StdoutLine: {'line': b'byte-compiling /home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages/hw3/data_sender.py to data_sender.cpython-312.pyc\n'}
+[3.376402] (hw3) StdoutLine: {'line': b'running install_data\n'}
+[3.376675] (hw3) StdoutLine: {'line': b'creating /home/hungatec/rob499_ws/install/hw3/share/ament_index\n'}
+[3.376878] (hw3) StdoutLine: {'line': b'creating /home/hungatec/rob499_ws/install/hw3/share/ament_index/resource_index\n'}
+[3.377047] (hw3) StdoutLine: {'line': b'creating /home/hungatec/rob499_ws/install/hw3/share/ament_index/resource_index/packages\n'}
+[3.377128] (hw3) StdoutLine: {'line': b'copying resource/hw3 -> /home/hungatec/rob499_ws/install/hw3/share/ament_index/resource_index/packages\n'}
+[3.377304] (hw3) StdoutLine: {'line': b'copying package.xml -> /home/hungatec/rob499_ws/install/hw3/share/hw3\n'}
+[3.377477] (hw3) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.401403] (hw3) StdoutLine: {'line': b'Copying ../../build/hw3/hw3.egg-info to /home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages/hw3-0.0.0-py3.12.egg-info\n'}
+[3.405081] (hw3) StdoutLine: {'line': b'running install_scripts\n'}
+[3.408358] (-) TimerEvent: {}
+[3.514903] (-) TimerEvent: {}
+[3.620759] (hw3) StdoutLine: {'line': b'Installing data_receiver script to /home/hungatec/rob499_ws/install/hw3/lib/hw3\n'}
+[3.621499] (-) TimerEvent: {}
+[3.622302] (hw3) StdoutLine: {'line': b'Installing data_sender script to /home/hungatec/rob499_ws/install/hw3/lib/hw3\n'}
+[3.622477] (hw3) StdoutLine: {'line': b"writing list of installed files to '/home/hungatec/rob499_ws/build/hw3/install.log'\n"}
+[3.714479] (hw3) CommandEnded: {'returncode': 0}
+[3.722658] (hw3) JobEnded: {'identifier': 'hw3', 'rc': 0}
+[3.726004] (-) TimerEvent: {}
+[3.728172] (-) EventReactorShutdown: {}

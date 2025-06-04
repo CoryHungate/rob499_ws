@@ -1,0 +1,92 @@
+[0.593s] Invoking command in '/home/hungatec/rob499_ws/build/rob599_basic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hungatec/rob499_ws/src/rob599/rob599_basic_cpp -DCMAKE_INSTALL_PREFIX=/home/hungatec/rob499_ws/install/rob599_basic_cpp
+[0.636s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.176s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.221s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.257s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.422s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.434s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.607s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.766s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.867s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.891s] -- Found rob599_msgs: 0.1.0 (/home/hungatec/rob499_ws/install/rob599_msgs/share/rob599_msgs/cmake)
+[1.990s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.256s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.257s] -- Configured cppcheck include dirs: 
+[2.257s] -- Configured cppcheck exclude dirs and/or files: 
+[2.258s] -- Added test 'lint_cmake' to check CMake code style
+[2.262s] -- Added test 'uncrustify' to check C / C++ code style
+[2.265s] -- Configured uncrustify additional arguments: 
+[2.277s] -- Added test 'xmllint' to check XML markup files
+[2.295s] -- Configuring done (1.7s)
+[2.408s] -- Generating done (0.1s)
+[2.440s] -- Build files have been written to: /home/hungatec/rob499_ws/build/rob599_basic_cpp
+[2.482s] Invoked command in '/home/hungatec/rob499_ws/build/rob599_basic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hungatec/rob499_ws/src/rob599/rob599_basic_cpp -DCMAKE_INSTALL_PREFIX=/home/hungatec/rob499_ws/install/rob599_basic_cpp
+[2.496s] Invoking command in '/home/hungatec/rob499_ws/build/rob599_basic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/rob599_basic_cpp -- -j4 -l4
+[2.752s] [  5%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[2.772s] [ 11%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[2.784s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[2.815s] [ 22%] [32mBuilding CXX object CMakeFiles/publisher2.dir/src/publisher2.cpp.o[0m
+[8.927s] [ 27%] [32m[1mLinking CXX executable node[0m
+[9.231s] [ 27%] Built target node
+[9.305s] [ 33%] [32mBuilding CXX object CMakeFiles/twice.dir/src/twice.cpp.o[0m
+[12.647s] [ 38%] [32m[1mLinking CXX executable publisher[0m
+[12.738s] [ 44%] [32m[1mLinking CXX executable publisher2[0m
+[13.058s] [ 44%] Built target publisher
+[13.117s] [ 50%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[13.263s] [ 50%] Built target publisher2
+[13.309s] [ 55%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[19.113s] [ 61%] [32m[1mLinking CXX executable subscriber[0m
+[19.621s] [ 61%] Built target subscriber
+[19.661s] [ 66%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[20.289s] [ 72%] [32m[1mLinking CXX executable service_server[0m
+[20.607s] [ 72%] Built target service_server
+[20.657s] [ 77%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[20.868s] [ 83%] [32m[1mLinking CXX executable service_client[0m
+[21.159s] [ 83%] Built target service_client
+[24.956s] [ 88%] [32m[1mLinking CXX executable twice[0m
+[25.383s] [ 88%] Built target twice
+[26.579s] [ 94%] [32m[1mLinking CXX executable action_server[0m
+[26.885s] [ 94%] Built target action_server
+[27.718s] [100%] [32m[1mLinking CXX executable action_client[0m
+[28.021s] [100%] Built target action_client
+[28.055s] Invoked command in '/home/hungatec/rob499_ws/build/rob599_basic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/rob599_basic_cpp -- -j4 -l4
+[28.057s] Invoking command in '/home/hungatec/rob499_ws/build/rob599_basic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/rob599_basic_cpp
+[28.071s] -- Install configuration: ""
+[28.073s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/node
+[28.073s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/node" to ""
+[28.073s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/publisher
+[28.076s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/publisher" to ""
+[28.076s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/publisher2
+[28.078s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/publisher2" to ""
+[28.078s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/subscriber
+[28.084s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/subscriber" to ""
+[28.084s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/twice
+[28.089s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/twice" to ""
+[28.090s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/service_server
+[28.091s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/service_server" to ""
+[28.091s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/service_client
+[28.093s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/service_client" to ""
+[28.093s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/action_server
+[28.097s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/action_server" to ""
+[28.097s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/action_client
+[28.097s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/action_client" to ""
+[28.097s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/launch
+[28.097s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/launch/doubler_launch.xml
+[28.100s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/ament_index/resource_index/package_run_dependencies/rob599_basic_cpp
+[28.101s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/ament_index/resource_index/parent_prefix_path/rob599_basic_cpp
+[28.101s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/environment/ament_prefix_path.sh
+[28.101s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/environment/ament_prefix_path.dsv
+[28.104s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/environment/path.sh
+[28.105s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/environment/path.dsv
+[28.105s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/local_setup.bash
+[28.105s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/local_setup.sh
+[28.105s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/local_setup.zsh
+[28.105s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/local_setup.dsv
+[28.105s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/package.dsv
+[28.105s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/ament_index/resource_index/packages/rob599_basic_cpp
+[28.105s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/cmake/rob599_basic_cppConfig.cmake
+[28.105s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/cmake/rob599_basic_cppConfig-version.cmake
+[28.106s] -- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/package.xml
+[28.120s] Invoked command in '/home/hungatec/rob499_ws/build/rob599_basic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/rob599_basic_cpp

@@ -1,0 +1,25 @@
+[2.498s] Invoking command in '/home/hungatec/rob499_ws/src/hw5': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/hw5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw5 build --build-base /home/hungatec/rob499_ws/build/hw5/build install --record /home/hungatec/rob499_ws/build/hw5/install.log --single-version-externally-managed install_data
+[2.908s] running egg_info
+[2.947s] writing ../../build/hw5/hw5.egg-info/PKG-INFO
+[2.947s] writing dependency_links to ../../build/hw5/hw5.egg-info/dependency_links.txt
+[2.948s] writing entry points to ../../build/hw5/hw5.egg-info/entry_points.txt
+[2.948s] writing requirements to ../../build/hw5/hw5.egg-info/requires.txt
+[2.948s] writing top-level names to ../../build/hw5/hw5.egg-info/top_level.txt
+[3.003s] reading manifest file '../../build/hw5/hw5.egg-info/SOURCES.txt'
+[3.004s] adding license file 'LICENSE'
+[3.006s] writing manifest file '../../build/hw5/hw5.egg-info/SOURCES.txt'
+[3.008s] running build
+[3.008s] running build_py
+[3.014s] running install
+[3.020s] running install_lib
+[3.060s] running install_data
+[3.065s] running install_egg_info
+[3.091s] removing '/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5-0.0.0-py3.12.egg-info' (and everything under it)
+[3.092s] Copying ../../build/hw5/hw5.egg-info to /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5-0.0.0-py3.12.egg-info
+[3.098s] running install_scripts
+[3.364s] Installing filtered_laserscan script to /home/hungatec/rob499_ws/install/hw5/lib/hw5
+[3.366s] Installing intrusion_detector script to /home/hungatec/rob499_ws/install/hw5/lib/hw5
+[3.367s] Installing people_detector script to /home/hungatec/rob499_ws/install/hw5/lib/hw5
+[3.367s] Installing personal_space script to /home/hungatec/rob499_ws/install/hw5/lib/hw5
+[3.367s] writing list of installed files to '/home/hungatec/rob499_ws/build/hw5/install.log'
+[3.553s] Invoked command in '/home/hungatec/rob499_ws/src/hw5' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/hw5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw5 build --build-base /home/hungatec/rob499_ws/build/hw5/build install --record /home/hungatec/rob499_ws/build/hw5/install.log --single-version-externally-managed install_data

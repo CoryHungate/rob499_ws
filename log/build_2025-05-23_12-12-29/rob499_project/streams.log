@@ -1,0 +1,33 @@
+[1.618s] Invoking command in '/home/hungatec/rob499_ws/src/rob499_project': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/rob499_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob499_project build --build-base /home/hungatec/rob499_ws/build/rob499_project/build install --record /home/hungatec/rob499_ws/build/rob499_project/install.log --single-version-externally-managed install_data
+[1.963s] running egg_info
+[1.964s] creating ../../build/rob499_project/rob499_project.egg-info
+[2.001s] writing ../../build/rob499_project/rob499_project.egg-info/PKG-INFO
+[2.002s] writing dependency_links to ../../build/rob499_project/rob499_project.egg-info/dependency_links.txt
+[2.004s] writing requirements to ../../build/rob499_project/rob499_project.egg-info/requires.txt
+[2.005s] writing top-level names to ../../build/rob499_project/rob499_project.egg-info/top_level.txt
+[2.005s] writing manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'
+[2.049s] reading manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'
+[2.051s] adding license file 'LICENSE'
+[2.053s] writing manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'
+[2.055s] running build
+[2.055s] running build_py
+[2.056s] creating /home/hungatec/rob499_ws/build/rob499_project/build
+[2.056s] creating /home/hungatec/rob499_ws/build/rob499_project/build/lib
+[2.056s] creating /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project
+[2.056s] copying rob499_project/__init__.py -> /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project
+[2.056s] running install
+[2.064s] running install_lib
+[2.097s] creating /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project
+[2.098s] copying /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project/__init__.py -> /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project
+[2.098s] byte-compiling /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project/__init__.py to __init__.cpython-312.pyc
+[2.099s] running install_data
+[2.099s] creating /home/hungatec/rob499_ws/install/rob499_project/share/ament_index
+[2.100s] creating /home/hungatec/rob499_ws/install/rob499_project/share/ament_index/resource_index
+[2.100s] creating /home/hungatec/rob499_ws/install/rob499_project/share/ament_index/resource_index/packages
+[2.100s] copying resource/rob499_project -> /home/hungatec/rob499_ws/install/rob499_project/share/ament_index/resource_index/packages
+[2.101s] copying package.xml -> /home/hungatec/rob499_ws/install/rob499_project/share/rob499_project
+[2.101s] running install_egg_info
+[2.126s] Copying ../../build/rob499_project/rob499_project.egg-info to /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project-0.0.0-py3.12.egg-info
+[2.127s] running install_scripts
+[2.299s] writing list of installed files to '/home/hungatec/rob499_ws/build/rob499_project/install.log'
+[2.346s] Invoked command in '/home/hungatec/rob499_ws/src/rob499_project' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/rob499_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob499_project build --build-base /home/hungatec/rob499_ws/build/rob499_project/build install --record /home/hungatec/rob499_ws/build/rob499_project/install.log --single-version-externally-managed install_data

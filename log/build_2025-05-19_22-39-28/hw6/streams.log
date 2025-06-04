@@ -1,0 +1,46 @@
+[0.038s] Invoking command in '/home/hungatec/rob499_ws/build/hw6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hungatec/rob499_ws/src/hw6 -DCMAKE_INSTALL_PREFIX=/home/hungatec/rob499_ws/install/hw6
+[0.407s] -- The C compiler identification is GNU 13.3.0
+[0.555s] -- The CXX compiler identification is GNU 13.3.0
+[0.613s] -- Detecting C compiler ABI info
+[0.833s] -- Detecting C compiler ABI info - done
+[0.847s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.848s] -- Detecting C compile features
+[0.851s] -- Detecting C compile features - done
+[0.874s] -- Detecting CXX compiler ABI info
+[1.045s] -- Detecting CXX compiler ABI info - done
+[1.063s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.066s] -- Detecting CXX compile features
+[1.066s] -- Detecting CXX compile features - done
+[1.100s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.350s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.511s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.586s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.614s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.640s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.677s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.807s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.811s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.031s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.069s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.189s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[2.244s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.289s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[2.291s]   By not providing "Findrob499_msgs.cmake" in CMAKE_MODULE_PATH this project
+[2.291s]   has asked CMake to find a package configuration file provided by
+[2.291s]   "rob499_msgs", but CMake did not find one.
+[2.291s] 
+[2.291s]   Could not find a package configuration file provided by "rob499_msgs" with
+[2.291s]   any of the following names:
+[2.291s] 
+[2.291s]     rob499_msgsConfig.cmake
+[2.291s]     rob499_msgs-config.cmake
+[2.291s] 
+[2.291s]   Add the installation prefix of "rob499_msgs" to CMAKE_PREFIX_PATH or set
+[2.292s]   "rob499_msgs_DIR" to a directory containing one of the above files.  If
+[2.292s]   "rob499_msgs" provides a separate development package or SDK, be sure it
+[2.292s]   has been installed.
+[2.292s] 
+[2.292s] [0m
+[2.293s] -- Configuring incomplete, errors occurred!
+[2.312s] Invoked command in '/home/hungatec/rob499_ws/build/hw6' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hungatec/rob499_ws/src/hw6 -DCMAKE_INSTALL_PREFIX=/home/hungatec/rob499_ws/install/hw6

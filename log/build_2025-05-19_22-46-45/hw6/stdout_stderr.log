@@ -1,0 +1,12 @@
+[ 25%] Built target data_receiver
+[ 50%] Built target data_sender
+[ 75%] Built target oscope
+[ 87%] [32mBuilding CXX object CMakeFiles/limiter.dir/src/limiter.cpp.o[0m
+[01m[K/home/hungatec/rob499_ws/src/hw6/src/limiter.cpp:39:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kdouble[m[K’ in initialization
+   39 |         double limit_ = [01;31m[Kthis->get_parameter("limit")[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+      |                                            [01;31m[K|[m[K
+      |                                            [01;31m[Krclcpp::Parameter[m[K
+gmake[2]: *** [CMakeFiles/limiter.dir/build.make:76: CMakeFiles/limiter.dir/src/limiter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/limiter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

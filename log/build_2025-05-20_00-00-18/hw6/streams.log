@@ -1,0 +1,54 @@
+[0.030s] Invoking command in '/home/hungatec/rob499_ws/build/hw6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4
+[0.228s] [ 25%] Built target oscope
+[0.231s] [ 50%] Built target data_receiver
+[0.244s] [ 75%] Built target limiter
+[0.256s] [ 87%] [32mBuilding CXX object CMakeFiles/data_sender.dir/src/data_sender.cpp.o[0m
+[4.204s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:97:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[4.207s]    97 | }
+[4.207s]       |  [01;31m[K^[m[K
+[4.208s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:19:45:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.208s]    19 | class SendDataService : public rclcpp::Node [01;36m[K{[m[K
+[4.208s]       |                                             [01;36m[K^[m[K
+[4.215s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:[m[K In constructor ‘[01m[KSendDataService::[01;32m[KSendDataService[m[K()[m[K’:
+[4.216s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:27:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[4.216s]    27 |                 [01;31m[Kpublisher_[m[K = this->create_publisher<TestPacket>("data", 10);
+[4.216s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[4.216s]       |                 [32m[Krmw_publisher_t[m[K
+[4.230s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:28:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope; did you mean ‘[01m[Kservice_msgs[m[K’?
+[4.230s]    28 |                 [01;31m[Kservice_[m[K = this->create_service<SendData>("send_data", std::bind(&SendDataService::service_callback, this, _1, _2));
+[4.230s]       |                 [01;31m[K^~~~~~~~[m[K
+[4.230s]       |                 [32m[Kservice_msgs[m[K
+[4.230s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:28:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_callback[m[K’ is not a member of ‘[01m[KSendDataService[m[K’
+[4.230s]    28 |                 service_ = this->create_service<SendData>("send_data", std::bind(&SendDataService::[01;31m[Kservice_callback[m[K, this, _1, _2));
+[4.230s]       |                                                                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.240s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:30:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_data_[m[K’ was not declared in this scope; did you mean ‘[01m[KSendData[m[K’?
+[4.240s]    30 |                 if ([01;31m[Ksend_data_[m[K) {
+[4.240s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[4.240s]       |                     [32m[KSendData[m[K
+[4.250s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:31:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[4.250s]    31 |                         [01;31m[Ktimer_[m[K = this->create_wall_timer(2s, std::bind(&SendDataService::timer_callback, this));
+[4.250s]       |                         [01;31m[K^~~~~~[m[K
+[4.250s]       |                         [32m[Ktimer_t[m[K
+[4.250s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:31:90:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KSendDataService[m[K’
+[4.250s]    31 |                         timer_ = this->create_wall_timer(2s, std::bind(&SendDataService::[01;31m[Ktimer_callback[m[K, this));
+[4.250s]       |                                                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.252s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:38:69:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[4.252s]    38 |                 const std::shared_ptr<SendData::Response> response) [01;31m[K{[m[K
+[4.252s]       |                                                                     [01;31m[K^[m[K
+[4.252s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:57:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[4.252s]    57 | [01;31m[Kprivate[m[K:
+[4.253s]       | [01;31m[K^~~~~~~[m[K
+[4.268s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:67:30:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[4.269s]    67 |         void timer_callback()[01;31m[K{[m[K
+[4.270s]       |                              [01;31m[K^[m[K
+[4.270s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:61:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcounter_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.270s]    61 |         int [01;35m[Kcounter_[m[K = 0;
+[4.270s]       |             [01;35m[K^~~~~~~~[m[K
+[4.280s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:[m[K At global scope:
+[4.280s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:97:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[4.280s]    97 | }
+[4.280s]       |  [01;31m[K^[m[K
+[5.611s] gmake[2]: *** [CMakeFiles/data_sender.dir/build.make:76: CMakeFiles/data_sender.dir/src/data_sender.cpp.o] Error 1
+[5.611s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/data_sender.dir/all] Error 2
+[5.611s] gmake: *** [Makefile:146: all] Error 2
+[5.620s] Invoked command in '/home/hungatec/rob499_ws/build/hw6' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4

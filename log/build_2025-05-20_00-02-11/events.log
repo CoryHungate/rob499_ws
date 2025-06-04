@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.001138] (-) JobUnselected: {'identifier': 'hw2'}
+[0.003403] (-) JobUnselected: {'identifier': 'hw3'}
+[0.003947] (-) JobUnselected: {'identifier': 'hw4'}
+[0.004156] (-) JobUnselected: {'identifier': 'hw5'}
+[0.004241] (-) JobUnselected: {'identifier': 'rob499_msgs'}
+[0.004333] (-) JobUnselected: {'identifier': 'rob599_basic'}
+[0.004413] (-) JobUnselected: {'identifier': 'rob599_basic_cpp'}
+[0.004491] (-) JobUnselected: {'identifier': 'rob599_more'}
+[0.004572] (-) JobUnselected: {'identifier': 'rob599_msgs'}
+[0.004857] (-) JobUnselected: {'identifier': 'rob599_stage'}
+[0.004951] (hw6) JobQueued: {'identifier': 'hw6', 'dependencies': OrderedDict()}
+[0.005036] (hw6) JobStarted: {'identifier': 'hw6'}
+[0.032057] (hw6) JobProgress: {'identifier': 'hw6', 'progress': 'cmake'}
+[0.034072] (hw6) JobProgress: {'identifier': 'hw6', 'progress': 'build'}
+[0.037971] (hw6) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hungatec/rob499_ws/build/hw6', '--', '-j4', '-l4'], 'cwd': '/home/hungatec/rob499_ws/build/hw6', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib:/home/hungatec/rob499_ws/install/rob499_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'OLDPWD': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2209', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hungatec/rob499_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2180,unix/Ubuntu24:/tmp/.ICE-unix/2180', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3216d1aa_b168_472d_8f8a_eb34c937b235', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LYSP62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/hw6', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_more/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw4/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy'}), 'shell': False}
+[0.098689] (-) TimerEvent: {}
+[0.202326] (-) TimerEvent: {}
+[0.295222] (hw6) StdoutLine: {'line': b'[ 25%] Built target oscope\n'}
+[0.311815] (hw6) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/data_sender.dir/src/data_sender.cpp.o\x1b[0m\n'}
+[0.312295] (-) TimerEvent: {}
+[0.314358] (hw6) StdoutLine: {'line': b'[ 62%] Built target limiter\n'}
+[0.325349] (hw6) StdoutLine: {'line': b'[ 87%] Built target data_receiver\n'}
+[0.421398] (-) TimerEvent: {}
+[0.525246] (-) TimerEvent: {}
+[0.631117] (-) TimerEvent: {}
+[0.736856] (-) TimerEvent: {}
+[0.839232] (-) TimerEvent: {}
+[0.948603] (-) TimerEvent: {}
+[1.056818] (-) TimerEvent: {}
+[1.157773] (-) TimerEvent: {}
+[1.259538] (-) TimerEvent: {}
+[1.363074] (-) TimerEvent: {}
+[1.465920] (-) TimerEvent: {}
+[1.568101] (-) TimerEvent: {}
+[1.672904] (-) TimerEvent: {}
+[1.779123] (-) TimerEvent: {}
+[1.888378] (-) TimerEvent: {}
+[1.993054] (-) TimerEvent: {}
+[2.096335] (-) TimerEvent: {}
+[2.201861] (-) TimerEvent: {}
+[2.304107] (-) TimerEvent: {}
+[2.407814] (-) TimerEvent: {}
+[2.584014] (-) TimerEvent: {}
+[2.693397] (-) TimerEvent: {}
+[2.799501] (-) TimerEvent: {}
+[2.928627] (-) TimerEvent: {}
+[3.039066] (-) TimerEvent: {}
+[3.146413] (-) TimerEvent: {}
+[3.278161] (-) TimerEvent: {}
+[3.394131] (-) TimerEvent: {}
+[3.495034] (-) TimerEvent: {}
+[3.641741] (-) TimerEvent: {}
+[3.747877] (-) TimerEvent: {}
+[3.855887] (-) TimerEvent: {}
+[4.015504] (-) TimerEvent: {}
+[4.229215] (-) TimerEvent: {}
+[4.349476] (-) TimerEvent: {}
+[4.461975] (-) TimerEvent: {}
+[4.602197] (-) TimerEvent: {}
+[4.702954] (-) TimerEvent: {}
+[4.821274] (-) TimerEvent: {}
+[5.021282] (-) TimerEvent: {}
+[5.140945] (-) TimerEvent: {}
+[5.265018] (-) TimerEvent: {}
+[5.370615] (-) TimerEvent: {}
+[5.472562] (-) TimerEvent: {}
+[5.722142] (-) TimerEvent: {}
+[5.827147] (-) TimerEvent: {}
+[6.006658] (-) TimerEvent: {}
+[6.109018] (-) TimerEvent: {}
+[6.690107] (-) TimerEvent: {}
+[6.798508] (-) TimerEvent: {}
+[6.909151] (-) TimerEvent: {}
+[7.011934] (-) TimerEvent: {}
+[7.115276] (-) TimerEvent: {}
+[7.221800] (-) TimerEvent: {}
+[7.330028] (-) TimerEvent: {}
+[7.454050] (-) TimerEvent: {}
+[7.580313] (-) TimerEvent: {}
+[7.685319] (-) TimerEvent: {}
+[7.850636] (-) TimerEvent: {}
+[8.014886] (-) TimerEvent: {}
+[8.208810] (-) TimerEvent: {}
+[8.364199] (-) TimerEvent: {}
+[8.655947] (-) TimerEvent: {}
+[8.786398] (-) TimerEvent: {}
+[8.953882] (-) TimerEvent: {}
+[8.975870] (hw6) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable data_sender\x1b[0m\n'}
+[9.055721] (-) TimerEvent: {}
+[9.228265] (-) TimerEvent: {}
+[9.304359] (hw6) StdoutLine: {'line': b'[100%] Built target data_sender\n'}
+[9.335947] (hw6) CommandEnded: {'returncode': 0}
+[9.338370] (-) TimerEvent: {}
+[9.339695] (hw6) JobProgress: {'identifier': 'hw6', 'progress': 'install'}
+[9.366013] (hw6) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hungatec/rob499_ws/build/hw6'], 'cwd': '/home/hungatec/rob499_ws/build/hw6', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib:/home/hungatec/rob499_ws/install/rob499_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'OLDPWD': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2209', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hungatec/rob499_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2180,unix/Ubuntu24:/tmp/.ICE-unix/2180', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3216d1aa_b168_472d_8f8a_eb34c937b235', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LYSP62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/hw6', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_more/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw4/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy'}), 'shell': False}
+[9.387068] (hw6) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.390863] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/lib/hw6/oscope\n'}
+[9.391191] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/lib/hw6/limiter\n'}
+[9.391270] (hw6) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/hw6/lib/hw6/data_sender\n'}
+[9.395514] (hw6) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw6/lib/hw6/data_sender" to ""\n'}
+[9.395963] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/lib/hw6/data_receiver\n'}
+[9.396123] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/launch\n'}
+[9.396428] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/launch/limited_oscope.py\n'}
+[9.396501] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/launch/comparison_launch.py\n'}
+[9.396565] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/ament_index/resource_index/package_run_dependencies/hw6\n'}
+[9.397019] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/ament_index/resource_index/parent_prefix_path/hw6\n'}
+[9.397147] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/ament_prefix_path.sh\n'}
+[9.397379] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/ament_prefix_path.dsv\n'}
+[9.397533] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/path.sh\n'}
+[9.397633] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/path.dsv\n'}
+[9.397701] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.bash\n'}
+[9.397769] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.sh\n'}
+[9.398144] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.zsh\n'}
+[9.399581] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.dsv\n'}
+[9.400095] (hw6) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/package.dsv\n'}
+[9.400259] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/ament_index/resource_index/packages/hw6\n'}
+[9.400727] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/cmake/hw6Config.cmake\n'}
+[9.400863] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/cmake/hw6Config-version.cmake\n'}
+[9.400932] (hw6) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/package.xml\n'}
+[9.409145] (hw6) CommandEnded: {'returncode': 0}
+[9.439805] (-) TimerEvent: {}
+[9.463664] (hw6) JobEnded: {'identifier': 'hw6', 'rc': 0}
+[9.469261] (-) EventReactorShutdown: {}

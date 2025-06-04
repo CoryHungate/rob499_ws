@@ -1,0 +1,16 @@
+[0.053s] Invoking command in '/home/hungatec/rob499_ws/build/hw6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4
+[0.242s] [ 25%] Built target data_receiver
+[0.243s] [ 50%] Built target limiter
+[0.264s] [ 62%] [32mBuilding CXX object CMakeFiles/data_sender.dir/src/data_sender.cpp.o[0m
+[0.269s] [ 87%] Built target oscope
+[6.171s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:[m[K In member function ‘[01m[Kvoid SendDataService::[01;32m[Ktimer_callback[m[K()[m[K’:
+[6.172s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:75:47:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.172s]    75 |                                         [01;35m[Kthis->counter_[m[K, rclcpp::Time(msg.send_time).seconds());
+[6.172s]       |                                         [01;35m[K~~~~~~^~~~~~~~[m[K
+[6.172s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/data_sender.cpp:75:94:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[6.172s]    75 |                                         this->counter_, rclcpp::Time(msg.send_time).seconds()[01;31m[K)[m[K;
+[6.172s]       |                                                                                              [01;31m[K^[m[K
+[7.920s] gmake[2]: *** [CMakeFiles/data_sender.dir/build.make:76: CMakeFiles/data_sender.dir/src/data_sender.cpp.o] Error 1
+[7.920s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/data_sender.dir/all] Error 2
+[7.920s] gmake: *** [Makefile:146: all] Error 2
+[7.925s] Invoked command in '/home/hungatec/rob499_ws/build/hw6' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4

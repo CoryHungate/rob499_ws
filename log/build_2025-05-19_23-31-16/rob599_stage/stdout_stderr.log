@@ -1,0 +1,26 @@
+running egg_info
+creating ../../../build/rob599_stage/rob599_stage.egg-info
+writing ../../../build/rob599_stage/rob599_stage.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rob599_stage/rob599_stage.egg-info/dependency_links.txt
+writing requirements to ../../../build/rob599_stage/rob599_stage.egg-info/requires.txt
+writing top-level names to ../../../build/rob599_stage/rob599_stage.egg-info/top_level.txt
+writing manifest file '../../../build/rob599_stage/rob599_stage.egg-info/SOURCES.txt'
+reading manifest file '../../../build/rob599_stage/rob599_stage.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/rob599_stage/rob599_stage.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/hungatec/rob499_ws/install/rob599_stage/share/ament_index
+creating /home/hungatec/rob499_ws/install/rob599_stage/share/ament_index/resource_index
+creating /home/hungatec/rob499_ws/install/rob599_stage/share/ament_index/resource_index/packages
+copying resource/rob599_stage -> /home/hungatec/rob499_ws/install/rob599_stage/share/ament_index/resource_index/packages
+copying package.xml -> /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage
+creating /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage/launch
+copying launch/cave_launch.xml -> /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage/launch
+creating /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage/config
+copying config/cave3.rviz -> /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage/config
+running install_egg_info
+Copying ../../../build/rob599_stage/rob599_stage.egg-info to /home/hungatec/rob499_ws/install/rob599_stage/lib/python3.12/site-packages/rob599_stage-0.1.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/hungatec/rob499_ws/build/rob599_stage/install.log'

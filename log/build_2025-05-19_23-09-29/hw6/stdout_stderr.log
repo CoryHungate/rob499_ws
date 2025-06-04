@@ -1,0 +1,29 @@
+[ 25%] Built target data_sender
+[ 37%] [32mBuilding CXX object CMakeFiles/oscope.dir/src/oscope.cpp.o[0m
+[ 62%] Built target limiter
+[ 87%] Built target data_receiver
+[01m[K/home/hungatec/rob499_ws/src/hw6/src/oscope.cpp:[m[K In constructor ‘[01m[KOscopePublisher::[01;32m[KOscopePublisher[m[K()[m[K’:
+[01m[K/home/hungatec/rob499_ws/src/hw6/src/oscope.cpp:32:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Ks[m[K’
+   32 |      timer_ = this->create_wall_timer((1.0 / sampling_rate_)[01;31m[Ks[m[K, std::bind(&OscopePublisher::timer_callback, this));
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/hungatec/rob499_ws/src/hw6/src/oscope.cpp:32:49:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   32 |                 timer_ = this->create_wall_timer[01;36m[K([m[K(1.0 / sampling_rate_)s, std::bind(&OscopePublisher::timer_callback, this));
+      |                                                 [01;36m[K^[m[K
+[01m[K/home/hungatec/rob499_ws/src/hw6/src/oscope.cpp:32:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOscopePublisher::create_wall_timer(double, std::_Bind_helper<false, void (OscopePublisher::*)(), OscopePublisher*>::type)[m[K’
+   32 |                 timer_ = [01;31m[Kthis->create_wall_timer((1.0 / sampling_rate_)s, std::bind(&OscopePublisher::timer_callback, this))[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/hungatec/rob499_ws/src/hw6/src/oscope.cpp:13[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_wall_timer[m[K(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr, bool)[m[K’
+  241 |   [01;36m[Kcreate_wall_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:241:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hungatec/rob499_ws/src/hw6/src/oscope.cpp:32:49:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+   32 |                 timer_ = [01;36m[Kthis->create_wall_timer((1.0 / sampling_rate_)s, std::bind(&OscopePublisher::timer_callback, this))[m[K;
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/oscope.dir/build.make:76: CMakeFiles/oscope.dir/src/oscope.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/oscope.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

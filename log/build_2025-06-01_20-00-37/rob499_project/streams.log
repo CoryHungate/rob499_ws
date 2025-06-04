@@ -1,0 +1,28 @@
+[2.384s] Invoking command in '/home/hungatec/rob499_ws/src/rob499_project': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/rob499_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob499_project build --build-base /home/hungatec/rob499_ws/build/rob499_project/build install --record /home/hungatec/rob499_ws/build/rob499_project/install.log --single-version-externally-managed install_data
+[2.935s] running egg_info
+[2.965s] writing ../../build/rob499_project/rob499_project.egg-info/PKG-INFO
+[2.966s] writing dependency_links to ../../build/rob499_project/rob499_project.egg-info/dependency_links.txt
+[2.968s] writing entry points to ../../build/rob499_project/rob499_project.egg-info/entry_points.txt
+[2.971s] writing requirements to ../../build/rob499_project/rob499_project.egg-info/requires.txt
+[2.971s] writing top-level names to ../../build/rob499_project/rob499_project.egg-info/top_level.txt
+[3.054s] reading manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'
+[3.054s] adding license file 'LICENSE'
+[3.056s] writing manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'
+[3.056s] running build
+[3.057s] running build_py
+[3.057s] running install
+[3.069s] running install_lib
+[3.156s] running install_data
+[3.156s] copying launch/turtle_launch.py -> /home/hungatec/rob499_ws/install/rob499_project/share/rob499_project/launch
+[3.157s] running install_egg_info
+[3.199s] removing '/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project-0.0.0-py3.12.egg-info' (and everything under it)
+[3.199s] Copying ../../build/rob499_project/rob499_project.egg-info to /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project-0.0.0-py3.12.egg-info
+[3.202s] running install_scripts
+[3.539s] Installing dummy_parameter script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+[3.540s] Installing knob1 script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+[3.541s] Installing knob2 script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+[3.544s] Installing serial_data script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+[3.544s] Installing turtle_movement script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+[3.545s] Installing virtual_serial_data script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+[3.545s] writing list of installed files to '/home/hungatec/rob499_ws/build/rob499_project/install.log'
+[3.592s] Invoked command in '/home/hungatec/rob499_ws/src/rob499_project' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/rob499_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob499_project build --build-base /home/hungatec/rob499_ws/build/rob499_project/build install --record /home/hungatec/rob499_ws/build/rob499_project/install.log --single-version-externally-managed install_data

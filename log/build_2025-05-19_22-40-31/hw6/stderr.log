@@ -1,0 +1,8 @@
+[01m[K/home/hungatec/rob499_ws/src/hw6/src/limiter.cpp:[m[K In constructor ‘[01m[KOscopeSubscriber::[01;32m[KOscopeSubscriber[m[K(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/hungatec/rob499_ws/src/hw6/src/limiter.cpp:31:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass OscopeSubscriber[m[K’ has no member named ‘[01m[Kset_on_parameters_set_callback[m[K’
+   31 |                 this->[01;31m[Kset_on_parameters_set_callback[m[K(
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/limiter.dir/build.make:76: CMakeFiles/limiter.dir/src/limiter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/limiter.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

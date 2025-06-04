@@ -1,0 +1,86 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rob599_msgs: 0.1.0 (/home/hungatec/rob499_ws/install/rob599_msgs/share/rob599_msgs/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/hungatec/rob499_ws/build/rob599_basic_cpp
+[  5%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/publisher2.dir/src/publisher2.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable node[0m
+[ 27%] Built target node
+[ 33%] [32mBuilding CXX object CMakeFiles/twice.dir/src/twice.cpp.o[0m
+[ 38%] [32m[1mLinking CXX executable publisher[0m
+[ 44%] [32m[1mLinking CXX executable publisher2[0m
+[ 44%] Built target publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[ 50%] Built target publisher2
+[ 55%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable subscriber[0m
+[ 61%] Built target subscriber
+[ 66%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable service_server[0m
+[ 72%] Built target service_server
+[ 77%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable service_client[0m
+[ 83%] Built target service_client
+[ 88%] [32m[1mLinking CXX executable twice[0m
+[ 88%] Built target twice
+[ 94%] [32m[1mLinking CXX executable action_server[0m
+[ 94%] Built target action_server
+[100%] [32m[1mLinking CXX executable action_client[0m
+[100%] Built target action_client
+-- Install configuration: ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/node
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/node" to ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/publisher
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/publisher" to ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/publisher2
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/publisher2" to ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/subscriber
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/subscriber" to ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/twice
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/twice" to ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/service_server
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/service_server" to ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/service_client
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/service_client" to ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/action_server
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/action_server" to ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/action_client
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob599_basic_cpp/lib/rob599_basic_cpp/action_client" to ""
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/launch
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/launch/doubler_launch.xml
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/ament_index/resource_index/package_run_dependencies/rob599_basic_cpp
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/ament_index/resource_index/parent_prefix_path/rob599_basic_cpp
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/environment/path.sh
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/environment/path.dsv
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/local_setup.bash
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/local_setup.sh
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/local_setup.zsh
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/local_setup.dsv
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/package.dsv
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/ament_index/resource_index/packages/rob599_basic_cpp
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/cmake/rob599_basic_cppConfig.cmake
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/cmake/rob599_basic_cppConfig-version.cmake
+-- Installing: /home/hungatec/rob499_ws/install/rob599_basic_cpp/share/rob599_basic_cpp/package.xml

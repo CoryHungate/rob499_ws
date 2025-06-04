@@ -1,0 +1,28 @@
+[2.585s] Invoking command in '/home/hungatec/rob499_ws/src/rob599/rob599_stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/rob599_stage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/rob599_stage/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rob599_stage build --build-base /home/hungatec/rob499_ws/build/rob599_stage/build install --record /home/hungatec/rob499_ws/build/rob599_stage/install.log --single-version-externally-managed install_data
+[3.292s] running egg_info
+[3.292s] creating ../../../build/rob599_stage/rob599_stage.egg-info
+[3.325s] writing ../../../build/rob599_stage/rob599_stage.egg-info/PKG-INFO
+[3.326s] writing dependency_links to ../../../build/rob599_stage/rob599_stage.egg-info/dependency_links.txt
+[3.326s] writing requirements to ../../../build/rob599_stage/rob599_stage.egg-info/requires.txt
+[3.338s] writing top-level names to ../../../build/rob599_stage/rob599_stage.egg-info/top_level.txt
+[3.338s] writing manifest file '../../../build/rob599_stage/rob599_stage.egg-info/SOURCES.txt'
+[3.367s] reading manifest file '../../../build/rob599_stage/rob599_stage.egg-info/SOURCES.txt'
+[3.367s] adding license file 'LICENSE'
+[3.367s] writing manifest file '../../../build/rob599_stage/rob599_stage.egg-info/SOURCES.txt'
+[3.367s] running build
+[3.367s] running install
+[3.369s] running install_data
+[3.370s] creating /home/hungatec/rob499_ws/install/rob599_stage/share/ament_index
+[3.370s] creating /home/hungatec/rob499_ws/install/rob599_stage/share/ament_index/resource_index
+[3.370s] creating /home/hungatec/rob499_ws/install/rob599_stage/share/ament_index/resource_index/packages
+[3.371s] copying resource/rob599_stage -> /home/hungatec/rob499_ws/install/rob599_stage/share/ament_index/resource_index/packages
+[3.371s] copying package.xml -> /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage
+[3.371s] creating /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage/launch
+[3.371s] copying launch/cave_launch.xml -> /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage/launch
+[3.377s] creating /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage/config
+[3.377s] copying config/cave3.rviz -> /home/hungatec/rob499_ws/install/rob599_stage/share/rob599_stage/config
+[3.377s] running install_egg_info
+[3.444s] Copying ../../../build/rob599_stage/rob599_stage.egg-info to /home/hungatec/rob499_ws/install/rob599_stage/lib/python3.12/site-packages/rob599_stage-0.1.0-py3.12.egg-info
+[3.457s] running install_scripts
+[3.813s] writing list of installed files to '/home/hungatec/rob499_ws/build/rob599_stage/install.log'
+[3.896s] Invoked command in '/home/hungatec/rob499_ws/src/rob599/rob599_stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/rob599_stage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/rob599_stage/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rob599_stage build --build-base /home/hungatec/rob499_ws/build/rob599_stage/build install --record /home/hungatec/rob499_ws/build/rob599_stage/install.log --single-version-externally-managed install_data

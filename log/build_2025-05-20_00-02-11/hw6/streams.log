@@ -1,0 +1,34 @@
+[0.039s] Invoking command in '/home/hungatec/rob499_ws/build/hw6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4
+[0.291s] [ 25%] Built target oscope
+[0.307s] [ 37%] [32mBuilding CXX object CMakeFiles/data_sender.dir/src/data_sender.cpp.o[0m
+[0.309s] [ 62%] Built target limiter
+[0.321s] [ 87%] Built target data_receiver
+[8.971s] [100%] [32m[1mLinking CXX executable data_sender[0m
+[9.299s] [100%] Built target data_sender
+[9.333s] Invoked command in '/home/hungatec/rob499_ws/build/hw6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4
+[9.362s] Invoking command in '/home/hungatec/rob499_ws/build/hw6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/hw6
+[9.383s] -- Install configuration: ""
+[9.386s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/lib/hw6/oscope
+[9.386s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/lib/hw6/limiter
+[9.386s] -- Installing: /home/hungatec/rob499_ws/install/hw6/lib/hw6/data_sender
+[9.391s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw6/lib/hw6/data_sender" to ""
+[9.391s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/lib/hw6/data_receiver
+[9.391s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/launch
+[9.391s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/launch/limited_oscope.py
+[9.391s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/launch/comparison_launch.py
+[9.392s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/ament_index/resource_index/package_run_dependencies/hw6
+[9.392s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/ament_index/resource_index/parent_prefix_path/hw6
+[9.392s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/ament_prefix_path.sh
+[9.392s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/ament_prefix_path.dsv
+[9.393s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/path.sh
+[9.393s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/path.dsv
+[9.393s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.bash
+[9.393s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.sh
+[9.394s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.zsh
+[9.395s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.dsv
+[9.395s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/package.dsv
+[9.395s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/ament_index/resource_index/packages/hw6
+[9.396s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/cmake/hw6Config.cmake
+[9.396s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/cmake/hw6Config-version.cmake
+[9.396s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw6/share/hw6/package.xml
+[9.404s] Invoked command in '/home/hungatec/rob499_ws/build/hw6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/hw6

@@ -1,0 +1,57 @@
+[2.780s] Invoking command in '/home/hungatec/rob499_ws/src/hw5': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/hw5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw5 build --build-base /home/hungatec/rob499_ws/build/hw5/build install --record /home/hungatec/rob499_ws/build/hw5/install.log --single-version-externally-managed install_data
+[3.375s] running egg_info
+[3.375s] creating ../../build/hw5/hw5.egg-info
+[3.418s] writing ../../build/hw5/hw5.egg-info/PKG-INFO
+[3.421s] writing dependency_links to ../../build/hw5/hw5.egg-info/dependency_links.txt
+[3.425s] writing entry points to ../../build/hw5/hw5.egg-info/entry_points.txt
+[3.426s] writing requirements to ../../build/hw5/hw5.egg-info/requires.txt
+[3.428s] writing top-level names to ../../build/hw5/hw5.egg-info/top_level.txt
+[3.434s] writing manifest file '../../build/hw5/hw5.egg-info/SOURCES.txt'
+[3.549s] reading manifest file '../../build/hw5/hw5.egg-info/SOURCES.txt'
+[3.553s] adding license file 'LICENSE'
+[3.592s] writing manifest file '../../build/hw5/hw5.egg-info/SOURCES.txt'
+[3.593s] running build
+[3.593s] running build_py
+[3.593s] creating /home/hungatec/rob499_ws/build/hw5/build
+[3.593s] creating /home/hungatec/rob499_ws/build/hw5/build/lib
+[3.593s] creating /home/hungatec/rob499_ws/build/hw5/build/lib/hw5
+[3.593s] copying hw5/personal_space_visualizer.py -> /home/hungatec/rob499_ws/build/hw5/build/lib/hw5
+[3.593s] copying hw5/take_intruder_pic.py -> /home/hungatec/rob499_ws/build/hw5/build/lib/hw5
+[3.593s] copying hw5/intrusion_detector.py -> /home/hungatec/rob499_ws/build/hw5/build/lib/hw5
+[3.593s] copying hw5/__init__.py -> /home/hungatec/rob499_ws/build/hw5/build/lib/hw5
+[3.593s] copying hw5/laser_scan_filter.py -> /home/hungatec/rob499_ws/build/hw5/build/lib/hw5
+[3.593s] copying hw5/people_detector.py -> /home/hungatec/rob499_ws/build/hw5/build/lib/hw5
+[3.593s] running install
+[3.593s] running install_lib
+[3.656s] creating /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5
+[3.656s] copying /home/hungatec/rob499_ws/build/hw5/build/lib/hw5/personal_space_visualizer.py -> /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5
+[3.658s] copying /home/hungatec/rob499_ws/build/hw5/build/lib/hw5/take_intruder_pic.py -> /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5
+[3.658s] copying /home/hungatec/rob499_ws/build/hw5/build/lib/hw5/intrusion_detector.py -> /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5
+[3.661s] copying /home/hungatec/rob499_ws/build/hw5/build/lib/hw5/__init__.py -> /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5
+[3.661s] copying /home/hungatec/rob499_ws/build/hw5/build/lib/hw5/laser_scan_filter.py -> /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5
+[3.662s] copying /home/hungatec/rob499_ws/build/hw5/build/lib/hw5/people_detector.py -> /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5
+[3.664s] byte-compiling /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5/personal_space_visualizer.py to personal_space_visualizer.cpython-312.pyc
+[3.673s] byte-compiling /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5/take_intruder_pic.py to take_intruder_pic.cpython-312.pyc
+[3.675s] byte-compiling /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5/intrusion_detector.py to intrusion_detector.cpython-312.pyc
+[3.698s] byte-compiling /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5/__init__.py to __init__.cpython-312.pyc
+[3.699s] byte-compiling /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5/laser_scan_filter.py to laser_scan_filter.cpython-312.pyc
+[3.699s] byte-compiling /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5/people_detector.py to people_detector.cpython-312.pyc
+[3.699s] running install_data
+[3.708s] creating /home/hungatec/rob499_ws/install/hw5/share/ament_index
+[3.708s] creating /home/hungatec/rob499_ws/install/hw5/share/ament_index/resource_index
+[3.708s] creating /home/hungatec/rob499_ws/install/hw5/share/ament_index/resource_index/packages
+[3.708s] copying resource/hw5 -> /home/hungatec/rob499_ws/install/hw5/share/ament_index/resource_index/packages
+[3.708s] copying package.xml -> /home/hungatec/rob499_ws/install/hw5/share/hw5
+[3.708s] creating /home/hungatec/rob499_ws/install/hw5/share/hw5/launch
+[3.735s] copying launch/launch.py -> /home/hungatec/rob499_ws/install/hw5/share/hw5/launch
+[3.736s] creating /home/hungatec/rob499_ws/install/hw5/share/hw5/config
+[3.737s] copying config/hw5_rviz2_config.rviz -> /home/hungatec/rob499_ws/install/hw5/share/hw5/config
+[3.738s] running install_egg_info
+[3.789s] Copying ../../build/hw5/hw5.egg-info to /home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages/hw5-0.0.0-py3.12.egg-info
+[3.805s] running install_scripts
+[4.229s] Installing filtered_laserscan script to /home/hungatec/rob499_ws/install/hw5/lib/hw5
+[4.230s] Installing intrusion_detector script to /home/hungatec/rob499_ws/install/hw5/lib/hw5
+[4.238s] Installing people_detector script to /home/hungatec/rob499_ws/install/hw5/lib/hw5
+[4.238s] Installing personal_space script to /home/hungatec/rob499_ws/install/hw5/lib/hw5
+[4.242s] writing list of installed files to '/home/hungatec/rob499_ws/build/hw5/install.log'
+[4.679s] Invoked command in '/home/hungatec/rob499_ws/src/hw5' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/hw5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw5 build --build-base /home/hungatec/rob499_ws/build/hw5/build install --record /home/hungatec/rob499_ws/build/hw5/install.log --single-version-externally-managed install_data

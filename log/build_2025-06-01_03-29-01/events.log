@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.004207] (-) JobUnselected: {'identifier': 'hw2'}
+[0.004280] (-) JobUnselected: {'identifier': 'hw3'}
+[0.004298] (-) JobUnselected: {'identifier': 'hw4'}
+[0.004310] (-) JobUnselected: {'identifier': 'hw5'}
+[0.004321] (-) JobUnselected: {'identifier': 'hw6'}
+[0.004332] (-) JobUnselected: {'identifier': 'rob499_msgs'}
+[0.004342] (-) JobUnselected: {'identifier': 'rob599_basic'}
+[0.004351] (-) JobUnselected: {'identifier': 'rob599_basic_cpp'}
+[0.004362] (-) JobUnselected: {'identifier': 'rob599_more'}
+[0.004371] (-) JobUnselected: {'identifier': 'rob599_msgs'}
+[0.004381] (-) JobUnselected: {'identifier': 'rob599_stage'}
+[0.004394] (rob499_project) JobQueued: {'identifier': 'rob499_project', 'dependencies': OrderedDict()}
+[0.008873] (rob499_project) JobStarted: {'identifier': 'rob499_project'}
+[0.110212] (-) TimerEvent: {}
+[0.210785] (-) TimerEvent: {}
+[0.326995] (-) TimerEvent: {}
+[0.432135] (-) TimerEvent: {}
+[0.544213] (-) TimerEvent: {}
+[0.645099] (-) TimerEvent: {}
+[0.745979] (-) TimerEvent: {}
+[0.848527] (-) TimerEvent: {}
+[0.950060] (-) TimerEvent: {}
+[1.051162] (-) TimerEvent: {}
+[1.151810] (-) TimerEvent: {}
+[1.252741] (-) TimerEvent: {}
+[1.353128] (-) TimerEvent: {}
+[1.457610] (-) TimerEvent: {}
+[1.563356] (-) TimerEvent: {}
+[1.667228] (-) TimerEvent: {}
+[1.687256] (rob499_project) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rob499_project', 'build', '--build-base', '/home/hungatec/rob499_ws/build/rob499_project/build', 'install', '--record', '/home/hungatec/rob499_ws/build/rob499_project/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hungatec/rob499_ws/src/rob499_project', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2268', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2232,unix/Ubuntu24:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/805dde56_2b49_47a4_bf55_a85300c7be1a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KOG962', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/rob499_project', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hungatec/rob499_ws/build/rob499_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.768174] (-) TimerEvent: {}
+[1.869792] (-) TimerEvent: {}
+[1.973403] (-) TimerEvent: {}
+[2.075438] (-) TimerEvent: {}
+[2.176084] (-) TimerEvent: {}
+[2.279253] (rob499_project) StdoutLine: {'line': b'running egg_info\n'}
+[2.279710] (-) TimerEvent: {}
+[2.314684] (rob499_project) StdoutLine: {'line': b'writing ../../build/rob499_project/rob499_project.egg-info/PKG-INFO\n'}
+[2.315974] (rob499_project) StdoutLine: {'line': b'writing dependency_links to ../../build/rob499_project/rob499_project.egg-info/dependency_links.txt\n'}
+[2.316614] (rob499_project) StdoutLine: {'line': b'writing entry points to ../../build/rob499_project/rob499_project.egg-info/entry_points.txt\n'}
+[2.317115] (rob499_project) StdoutLine: {'line': b'writing requirements to ../../build/rob499_project/rob499_project.egg-info/requires.txt\n'}
+[2.317685] (rob499_project) StdoutLine: {'line': b'writing top-level names to ../../build/rob499_project/rob499_project.egg-info/top_level.txt\n'}
+[2.380198] (-) TimerEvent: {}
+[2.394228] (rob499_project) StdoutLine: {'line': b"reading manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'\n"}
+[2.398094] (rob499_project) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.398366] (rob499_project) StdoutLine: {'line': b"writing manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'\n"}
+[2.398647] (rob499_project) StdoutLine: {'line': b'running build\n'}
+[2.398756] (rob499_project) StdoutLine: {'line': b'running build_py\n'}
+[2.398937] (rob499_project) StdoutLine: {'line': b'copying rob499_project/serial_data_publisher.py -> /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project\n'}
+[2.399800] (rob499_project) StdoutLine: {'line': b'copying rob499_project/x_vel_node.py -> /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project\n'}
+[2.400881] (rob499_project) StdoutLine: {'line': b'running install\n'}
+[2.418946] (rob499_project) StdoutLine: {'line': b'running install_lib\n'}
+[2.456710] (rob499_project) StdoutLine: {'line': b'copying /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project/serial_data_publisher.py -> /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project\n'}
+[2.460319] (rob499_project) StdoutLine: {'line': b'copying /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project/x_vel_node.py -> /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project\n'}
+[2.461199] (rob499_project) StdoutLine: {'line': b'byte-compiling /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project/serial_data_publisher.py to serial_data_publisher.cpython-312.pyc\n'}
+[2.463879] (rob499_project) StdoutLine: {'line': b'byte-compiling /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project/x_vel_node.py to x_vel_node.cpython-312.pyc\n'}
+[2.464862] (rob499_project) StdoutLine: {'line': b'running install_data\n'}
+[2.465070] (rob499_project) StdoutLine: {'line': b'copying package.xml -> /home/hungatec/rob499_ws/install/rob499_project/share/rob499_project\n'}
+[2.466113] (rob499_project) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.481068] (-) TimerEvent: {}
+[2.500455] (rob499_project) StdoutLine: {'line': b"removing '/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.500980] (rob499_project) StdoutLine: {'line': b'Copying ../../build/rob499_project/rob499_project.egg-info to /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project-0.0.0-py3.12.egg-info\n'}
+[2.503892] (rob499_project) StdoutLine: {'line': b'running install_scripts\n'}
+[2.581537] (-) TimerEvent: {}
+[2.692313] (-) TimerEvent: {}
+[2.758057] (rob499_project) StdoutLine: {'line': b'Installing dummy_parameter script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project\n'}
+[2.759594] (rob499_project) StdoutLine: {'line': b'Installing serial_data script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project\n'}
+[2.760756] (rob499_project) StdoutLine: {'line': b'Installing virtual_serial_data script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project\n'}
+[2.762343] (rob499_project) StdoutLine: {'line': b'Installing x_vel script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project\n'}
+[2.763614] (rob499_project) StdoutLine: {'line': b"writing list of installed files to '/home/hungatec/rob499_ws/build/rob499_project/install.log'\n"}
+[2.794214] (-) TimerEvent: {}
+[2.807640] (rob499_project) CommandEnded: {'returncode': 0}
+[2.831114] (rob499_project) JobEnded: {'identifier': 'rob499_project', 'rc': 0}
+[2.835056] (-) EventReactorShutdown: {}

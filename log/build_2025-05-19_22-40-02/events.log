@@ -1,0 +1,561 @@
+[0.000000] (-) TimerEvent: {}
+[0.001341] (-) JobUnselected: {'identifier': 'hw2'}
+[0.001440] (-) JobUnselected: {'identifier': 'hw3'}
+[0.001516] (-) JobUnselected: {'identifier': 'hw4'}
+[0.001589] (-) JobUnselected: {'identifier': 'hw5'}
+[0.001661] (-) JobUnselected: {'identifier': 'hw6'}
+[0.001733] (-) JobUnselected: {'identifier': 'rob599_basic'}
+[0.001803] (-) JobUnselected: {'identifier': 'rob599_basic_cpp'}
+[0.001876] (-) JobUnselected: {'identifier': 'rob599_more'}
+[0.002046] (-) JobUnselected: {'identifier': 'rob599_msgs'}
+[0.002124] (-) JobUnselected: {'identifier': 'rob599_stage'}
+[0.002210] (rob499_msgs) JobQueued: {'identifier': 'rob499_msgs', 'dependencies': OrderedDict()}
+[0.002396] (rob499_msgs) JobStarted: {'identifier': 'rob499_msgs'}
+[0.033058] (rob499_msgs) JobProgress: {'identifier': 'rob499_msgs', 'progress': 'cmake'}
+[0.033478] (rob499_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/hungatec/rob499_ws/src/rob499_msgs', '-DCMAKE_INSTALL_PREFIX=/home/hungatec/rob499_ws/install/rob499_msgs'], 'cwd': '/home/hungatec/rob499_ws/build/rob499_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib:/home/hungatec/rob499_ws/install/rob499_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'OLDPWD': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2209', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hungatec/rob499_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2180,unix/Ubuntu24:/tmp/.ICE-unix/2180', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3216d1aa_b168_472d_8f8a_eb34c937b235', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LYSP62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/rob499_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_more/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw4/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy'}), 'shell': False}
+[0.099985] (-) TimerEvent: {}
+[0.143525] (rob499_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.207380] (-) TimerEvent: {}
+[0.234417] (rob499_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.263619] (rob499_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.309314] (-) TimerEvent: {}
+[0.410084] (-) TimerEvent: {}
+[0.424324] (rob499_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.435989] (rob499_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.436626] (rob499_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.437956] (rob499_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.463450] (rob499_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.511467] (-) TimerEvent: {}
+[0.613186] (-) TimerEvent: {}
+[0.678415] (rob499_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.679770] (rob499_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.681118] (rob499_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.685917] (rob499_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.686761] (rob499_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.719410] (-) TimerEvent: {}
+[0.821263] (-) TimerEvent: {}
+[0.926356] (-) TimerEvent: {}
+[0.926874] (rob499_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.037082] (-) TimerEvent: {}
+[1.107052] (rob499_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.142314] (-) TimerEvent: {}
+[1.244363] (-) TimerEvent: {}
+[1.278115] (rob499_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[1.325261] (rob499_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.345315] (-) TimerEvent: {}
+[1.348832] (rob499_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.375283] (rob499_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.407229] (rob499_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.440518] (rob499_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.446693] (-) TimerEvent: {}
+[1.485793] (rob499_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.550462] (-) TimerEvent: {}
+[1.652312] (-) TimerEvent: {}
+[1.755351] (-) TimerEvent: {}
+[1.859401] (-) TimerEvent: {}
+[1.961242] (-) TimerEvent: {}
+[2.064348] (-) TimerEvent: {}
+[2.165715] (-) TimerEvent: {}
+[2.271077] (-) TimerEvent: {}
+[2.380097] (-) TimerEvent: {}
+[2.417329] (rob499_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.501753] (-) TimerEvent: {}
+[2.603558] (-) TimerEvent: {}
+[2.713307] (-) TimerEvent: {}
+[2.818070] (-) TimerEvent: {}
+[2.921195] (-) TimerEvent: {}
+[3.033145] (-) TimerEvent: {}
+[3.140387] (-) TimerEvent: {}
+[3.243637] (-) TimerEvent: {}
+[3.347207] (-) TimerEvent: {}
+[3.453378] (-) TimerEvent: {}
+[3.555379] (-) TimerEvent: {}
+[3.587484] (rob499_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.656180] (-) TimerEvent: {}
+[3.757273] (-) TimerEvent: {}
+[3.858494] (-) TimerEvent: {}
+[3.959538] (-) TimerEvent: {}
+[4.060113] (-) TimerEvent: {}
+[4.066278] (rob499_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.075681] (rob499_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.162422] (-) TimerEvent: {}
+[4.266108] (-) TimerEvent: {}
+[4.283374] (rob499_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.374889] (-) TimerEvent: {}
+[4.476654] (-) TimerEvent: {}
+[4.580572] (-) TimerEvent: {}
+[4.682353] (-) TimerEvent: {}
+[4.788116] (-) TimerEvent: {}
+[4.948567] (-) TimerEvent: {}
+[4.983375] (rob499_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.051004] (-) TimerEvent: {}
+[5.066034] (rob499_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.073148] (rob499_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.103585] (rob499_msgs) StdoutLine: {'line': b'-- Configuring done (5.0s)\n'}
+[5.152398] (-) TimerEvent: {}
+[5.221034] (rob499_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.243008] (rob499_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/hungatec/rob499_ws/build/rob499_msgs\n'}
+[5.258163] (-) TimerEvent: {}
+[5.266605] (rob499_msgs) CommandEnded: {'returncode': 0}
+[5.268939] (rob499_msgs) JobProgress: {'identifier': 'rob499_msgs', 'progress': 'build'}
+[5.268998] (rob499_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hungatec/rob499_ws/build/rob499_msgs', '--', '-j4', '-l4'], 'cwd': '/home/hungatec/rob499_ws/build/rob499_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib:/home/hungatec/rob499_ws/install/rob499_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'OLDPWD': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2209', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hungatec/rob499_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2180,unix/Ubuntu24:/tmp/.ICE-unix/2180', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3216d1aa_b168_472d_8f8a_eb34c937b235', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LYSP62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/rob499_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_more/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw4/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy'}), 'shell': False}
+[5.359046] (-) TimerEvent: {}
+[5.443421] (rob499_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.458638] (rob499_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_rob499_msgs\n'}
+[5.459032] (-) TimerEvent: {}
+[5.562350] (-) TimerEvent: {}
+[5.664997] (-) TimerEvent: {}
+[5.774431] (-) TimerEvent: {}
+[5.876015] (-) TimerEvent: {}
+[5.978686] (-) TimerEvent: {}
+[5.990541] (rob499_msgs) StdoutLine: {'line': b'[  1%] Built target rob499_msgs__rosidl_generator_type_description\n'}
+[6.005768] (rob499_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.006402] (rob499_msgs) StdoutLine: {'line': b'creating rob499_msgs.egg-info\n'}
+[6.033740] (rob499_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.070199] (rob499_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.070585] (rob499_msgs) StdoutLine: {'line': b'writing rob499_msgs.egg-info/PKG-INFO\n'}
+[6.070807] (rob499_msgs) StdoutLine: {'line': b'writing dependency_links to rob499_msgs.egg-info/dependency_links.txt\n'}
+[6.073773] (rob499_msgs) StdoutLine: {'line': b'writing top-level names to rob499_msgs.egg-info/top_level.txt\n'}
+[6.074872] (rob499_msgs) StdoutLine: {'line': b"writing manifest file 'rob499_msgs.egg-info/SOURCES.txt'\n"}
+[6.084097] (-) TimerEvent: {}
+[6.179009] (rob499_msgs) StdoutLine: {'line': b"reading manifest file 'rob499_msgs.egg-info/SOURCES.txt'\n"}
+[6.179958] (rob499_msgs) StdoutLine: {'line': b"writing manifest file 'rob499_msgs.egg-info/SOURCES.txt'\n"}
+[6.192674] (-) TimerEvent: {}
+[6.286245] (rob499_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_rob499_msgs_egg\n'}
+[6.293079] (-) TimerEvent: {}
+[6.393962] (-) TimerEvent: {}
+[6.499793] (-) TimerEvent: {}
+[6.609475] (-) TimerEvent: {}
+[6.711104] (-) TimerEvent: {}
+[6.827728] (-) TimerEvent: {}
+[6.929981] (-) TimerEvent: {}
+[7.035590] (-) TimerEvent: {}
+[7.138503] (-) TimerEvent: {}
+[7.189761] (rob499_msgs) StdoutLine: {'line': b'[  4%] Built target rob499_msgs__cpp\n'}
+[7.242065] (-) TimerEvent: {}
+[7.348987] (-) TimerEvent: {}
+[7.352300] (rob499_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/msg/detail/test_packet__type_support.c.o\x1b[0m\n'}
+[7.352880] (rob499_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/msg/detail/test_packet__description.c.o\x1b[0m\n'}
+[7.353226] (rob499_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/send_data__description.c.o\x1b[0m\n'}
+[7.355466] (rob499_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/msg/detail/test_packet__functions.c.o\x1b[0m\n'}
+[7.439628] (rob499_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/send_data__functions.c.o\x1b[0m\n'}
+[7.450065] (-) TimerEvent: {}
+[7.477509] (rob499_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/send_data__type_support.c.o\x1b[0m\n'}
+[7.503187] (rob499_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/enable_logging__description.c.o\x1b[0m\n'}
+[7.514455] (rob499_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/enable_logging__functions.c.o\x1b[0m\n'}
+[7.557498] (rob499_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/enable_logging__type_support.c.o\x1b[0m\n'}
+[7.557790] (-) TimerEvent: {}
+[7.604163] (rob499_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/action/detail/launch_rocket__description.c.o\x1b[0m\n'}
+[7.646490] (rob499_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/action/detail/launch_rocket__functions.c.o\x1b[0m\n'}
+[7.655837] (rob499_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/action/detail/launch_rocket__type_support.c.o\x1b[0m\n'}
+[7.659004] (-) TimerEvent: {}
+[7.778494] (-) TimerEvent: {}
+[7.880032] (-) TimerEvent: {}
+[7.920046] (rob499_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library librob499_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.980392] (-) TimerEvent: {}
+[7.997606] (rob499_msgs) StdoutLine: {'line': b'[ 25%] Built target rob499_msgs__rosidl_generator_c\n'}
+[8.025715] (rob499_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.026140] (rob499_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.030962] (rob499_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.031390] (rob499_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.084412] (-) TimerEvent: {}
+[8.193429] (-) TimerEvent: {}
+[8.305422] (-) TimerEvent: {}
+[8.408017] (-) TimerEvent: {}
+[8.521550] (-) TimerEvent: {}
+[8.632206] (-) TimerEvent: {}
+[8.697774] (rob499_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob499_msgs/msg/test_packet__type_support.cpp.o\x1b[0m\n'}
+[8.741081] (-) TimerEvent: {}
+[8.851161] (-) TimerEvent: {}
+[8.960283] (-) TimerEvent: {}
+[9.069568] (-) TimerEvent: {}
+[9.114757] (rob499_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob499_msgs/msg/detail/test_packet__type_support.c.o\x1b[0m\n'}
+[9.171003] (-) TimerEvent: {}
+[9.226418] (rob499_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob499_msgs/srv/detail/send_data__type_support.c.o\x1b[0m\n'}
+[9.272441] (-) TimerEvent: {}
+[9.353340] (rob499_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob499_msgs/srv/detail/enable_logging__type_support.c.o\x1b[0m\n'}
+[9.383406] (-) TimerEvent: {}
+[9.400104] (rob499_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob499_msgs/srv/send_data__type_support.cpp.o\x1b[0m\n'}
+[9.465866] (rob499_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob499_msgs/msg/detail/dds_fastrtps/test_packet__type_support.cpp.o\x1b[0m\n'}
+[9.486118] (rob499_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob499_msgs/action/detail/launch_rocket__type_support.c.o\x1b[0m\n'}
+[9.486374] (-) TimerEvent: {}
+[9.587127] (-) TimerEvent: {}
+[9.621393] (rob499_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob499_msgs/msg/detail/test_packet__type_support_c.cpp.o\x1b[0m\n'}
+[9.689066] (-) TimerEvent: {}
+[9.713743] (rob499_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library librob499_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.796260] (-) TimerEvent: {}
+[9.832361] (rob499_msgs) StdoutLine: {'line': b'[ 45%] Built target rob499_msgs__rosidl_typesupport_introspection_c\n'}
+[9.899119] (-) TimerEvent: {}
+[9.900750] (rob499_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.003447] (-) TimerEvent: {}
+[10.105456] (-) TimerEvent: {}
+[10.214959] (-) TimerEvent: {}
+[10.343243] (-) TimerEvent: {}
+[10.453439] (-) TimerEvent: {}
+[10.561425] (-) TimerEvent: {}
+[10.665616] (-) TimerEvent: {}
+[10.773672] (-) TimerEvent: {}
+[10.882082] (rob499_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob499_msgs/srv/enable_logging__type_support.cpp.o\x1b[0m\n'}
+[10.883121] (-) TimerEvent: {}
+[10.991213] (-) TimerEvent: {}
+[11.110275] (-) TimerEvent: {}
+[11.220330] (-) TimerEvent: {}
+[11.330394] (-) TimerEvent: {}
+[11.449403] (-) TimerEvent: {}
+[11.540773] (rob499_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob499_msgs/srv/detail/dds_fastrtps/send_data__type_support.cpp.o\x1b[0m\n'}
+[11.548885] (rob499_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob499_msgs/msg/test_packet__type_support.cpp.o\x1b[0m\n'}
+[11.549624] (rob499_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob499_msgs/srv/detail/send_data__type_support_c.cpp.o\x1b[0m\n'}
+[11.550015] (-) TimerEvent: {}
+[11.647294] (rob499_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob499_msgs/srv/send_data__type_support.cpp.o\x1b[0m\n'}
+[11.650026] (-) TimerEvent: {}
+[11.758118] (-) TimerEvent: {}
+[11.791487] (rob499_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob499_msgs/srv/enable_logging__type_support.cpp.o\x1b[0m\n'}
+[11.861589] (-) TimerEvent: {}
+[11.899454] (rob499_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob499_msgs/action/launch_rocket__type_support.cpp.o\x1b[0m\n'}
+[11.963906] (-) TimerEvent: {}
+[11.997556] (rob499_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob499_msgs/action/launch_rocket__type_support.cpp.o\x1b[0m\n'}
+[12.066083] (-) TimerEvent: {}
+[12.078258] (rob499_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.167073] (-) TimerEvent: {}
+[12.195054] (rob499_msgs) StdoutLine: {'line': b'[ 60%] Built target rob499_msgs__rosidl_typesupport_c\n'}
+[12.227151] (rob499_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob499_msgs/srv/detail/dds_fastrtps/enable_logging__type_support.cpp.o\x1b[0m\n'}
+[12.285296] (-) TimerEvent: {}
+[12.394434] (-) TimerEvent: {}
+[12.513692] (-) TimerEvent: {}
+[12.598986] (rob499_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob499_msgs/srv/detail/enable_logging__type_support_c.cpp.o\x1b[0m\n'}
+[12.623657] (-) TimerEvent: {}
+[12.710441] (rob499_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob499_msgs/action/detail/dds_fastrtps/launch_rocket__type_support.cpp.o\x1b[0m\n'}
+[12.743103] (-) TimerEvent: {}
+[12.852603] (-) TimerEvent: {}
+[12.962873] (-) TimerEvent: {}
+[13.077779] (-) TimerEvent: {}
+[13.181476] (-) TimerEvent: {}
+[13.290150] (-) TimerEvent: {}
+[13.400261] (-) TimerEvent: {}
+[13.495502] (rob499_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.500585] (-) TimerEvent: {}
+[13.600310] (rob499_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.600634] (-) TimerEvent: {}
+[13.649809] (rob499_msgs) StdoutLine: {'line': b'[ 68%] Built target rob499_msgs__rosidl_typesupport_cpp\n'}
+[13.682534] (rob499_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob499_msgs/action/detail/launch_rocket__type_support_c.cpp.o\x1b[0m\n'}
+[13.709081] (-) TimerEvent: {}
+[13.817684] (-) TimerEvent: {}
+[13.918964] (-) TimerEvent: {}
+[14.023002] (-) TimerEvent: {}
+[14.125810] (-) TimerEvent: {}
+[14.230078] (-) TimerEvent: {}
+[14.334372] (-) TimerEvent: {}
+[14.435539] (-) TimerEvent: {}
+[14.499651] (rob499_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob499_msgs/srv/detail/send_data__type_support.cpp.o\x1b[0m\n'}
+[14.500827] (rob499_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob499_msgs/msg/detail/test_packet__type_support.cpp.o\x1b[0m\n'}
+[14.555106] (-) TimerEvent: {}
+[14.674308] (-) TimerEvent: {}
+[14.705956] (rob499_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.762946] (rob499_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.782054] (-) TimerEvent: {}
+[14.894176] (-) TimerEvent: {}
+[14.909699] (rob499_msgs) StdoutLine: {'line': b'[ 76%] Built target rob499_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[14.930495] (rob499_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob499_msgs/srv/detail/enable_logging__type_support.cpp.o\x1b[0m\n'}
+[14.953174] (rob499_msgs) StdoutLine: {'line': b'[ 78%] Built target rob499_msgs__rosidl_typesupport_fastrtps_c\n'}
+[14.985982] (rob499_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob499_msgs/action/detail/launch_rocket__type_support.cpp.o\x1b[0m\n'}
+[15.003727] (-) TimerEvent: {}
+[15.122568] (-) TimerEvent: {}
+[15.228179] (-) TimerEvent: {}
+[15.331780] (-) TimerEvent: {}
+[15.433030] (-) TimerEvent: {}
+[15.540206] (-) TimerEvent: {}
+[15.653694] (-) TimerEvent: {}
+[15.763643] (-) TimerEvent: {}
+[15.899381] (-) TimerEvent: {}
+[16.066100] (-) TimerEvent: {}
+[16.169962] (-) TimerEvent: {}
+[16.198320] (rob499_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.288320] (-) TimerEvent: {}
+[16.330919] (rob499_msgs) StdoutLine: {'line': b'[ 81%] Built target rob499_msgs__rosidl_typesupport_introspection_cpp\n'}
+[16.372377] (rob499_msgs) StdoutLine: {'line': b'[ 81%] Built target rob499_msgs\n'}
+[16.389086] (-) TimerEvent: {}
+[16.423983] (rob499_msgs) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.490331] (-) TimerEvent: {}
+[16.594482] (-) TimerEvent: {}
+[16.708422] (-) TimerEvent: {}
+[16.860701] (-) TimerEvent: {}
+[16.980210] (-) TimerEvent: {}
+[17.151784] (-) TimerEvent: {}
+[17.371439] (-) TimerEvent: {}
+[17.476305] (-) TimerEvent: {}
+[17.726207] (-) TimerEvent: {}
+[17.824127] (rob499_msgs) StdoutLine: {'line': b'[ 82%] Built target rob499_msgs__py\n'}
+[17.827983] (-) TimerEvent: {}
+[17.869179] (rob499_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob499_msgs/msg/_test_packet_s.c.o\x1b[0m\n'}
+[17.870005] (rob499_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob499_msgs/srv/_enable_logging_s.c.o\x1b[0m\n'}
+[17.870158] (rob499_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob499_msgs/action/_launch_rocket_s.c.o\x1b[0m\n'}
+[17.870378] (rob499_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob499_msgs/srv/_send_data_s.c.o\x1b[0m\n'}
+[17.928110] (-) TimerEvent: {}
+[18.029757] (-) TimerEvent: {}
+[18.130723] (-) TimerEvent: {}
+[18.235554] (-) TimerEvent: {}
+[18.338027] (rob499_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library librob499_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[18.338297] (-) TimerEvent: {}
+[18.428564] (rob499_msgs) StdoutLine: {'line': b'[ 90%] Built target rob499_msgs__rosidl_generator_py\n'}
+[18.439979] (-) TimerEvent: {}
+[18.479426] (rob499_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rob499_msgs/_rob499_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.479821] (rob499_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/rob499_msgs/_rob499_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.480065] (rob499_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/rob499_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rob499_msgs/_rob499_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.540252] (-) TimerEvent: {}
+[18.646502] (-) TimerEvent: {}
+[18.723634] (rob499_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/rob499_msgs/rob499_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.726788] (rob499_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/rob499_msgs/rob499_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.739665] (rob499_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/rob499_msgs/rob499_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.754641] (-) TimerEvent: {}
+[18.804040] (rob499_msgs) StdoutLine: {'line': b'[100%] Built target rob499_msgs_s__rosidl_typesupport_c\n'}
+[18.808519] (rob499_msgs) StdoutLine: {'line': b'[100%] Built target rob499_msgs_s__rosidl_typesupport_introspection_c\n'}
+[18.826609] (rob499_msgs) StdoutLine: {'line': b'[100%] Built target rob499_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[18.848591] (rob499_msgs) CommandEnded: {'returncode': 0}
+[18.850864] (rob499_msgs) JobProgress: {'identifier': 'rob499_msgs', 'progress': 'install'}
+[18.856587] (-) TimerEvent: {}
+[18.869536] (rob499_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hungatec/rob499_ws/build/rob499_msgs'], 'cwd': '/home/hungatec/rob499_ws/build/rob499_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib:/home/hungatec/rob499_ws/install/rob499_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'OLDPWD': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2209', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hungatec/rob499_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2180,unix/Ubuntu24:/tmp/.ICE-unix/2180', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3216d1aa_b168_472d_8f8a_eb34c937b235', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LYSP62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/rob499_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_more/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw4/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy'}), 'shell': False}
+[18.896001] (rob499_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.896253] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/ament_index/resource_index/rosidl_interfaces/rob499_msgs\n'}
+[18.896335] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/msg/TestPacket.json\n'}
+[18.896404] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/srv/SendData.json\n'}
+[18.896467] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/srv/EnableLogging.json\n'}
+[18.896533] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/action/LaunchRocket.json\n'}
+[18.896595] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs\n'}
+[18.896655] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg\n'}
+[18.896715] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail\n'}
+[18.896774] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__functions.c\n'}
+[18.896954] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__description.c\n'}
+[18.897043] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__struct.h\n'}
+[18.897282] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__type_support.c\n'}
+[18.897385] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__type_support.h\n'}
+[18.897453] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__functions.h\n'}
+[18.897516] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/test_packet.h\n'}
+[18.897583] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.897646] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv\n'}
+[18.897707] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/enable_logging.h\n'}
+[18.897769] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail\n'}
+[18.897828] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__functions.h\n'}
+[18.897890] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__functions.c\n'}
+[18.897950] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__type_support.c\n'}
+[18.898012] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__struct.h\n'}
+[18.898075] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__type_support.h\n'}
+[18.898137] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__type_support.c\n'}
+[18.898198] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__struct.h\n'}
+[18.898258] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__type_support.h\n'}
+[18.898334] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__functions.c\n'}
+[18.898395] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__functions.h\n'}
+[18.898455] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__description.c\n'}
+[18.898514] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__description.c\n'}
+[18.898575] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/send_data.h\n'}
+[18.898635] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action\n'}
+[18.904891] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/launch_rocket.h\n'}
+[18.905133] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail\n'}
+[18.905205] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__functions.h\n'}
+[18.905270] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__description.c\n'}
+[18.905333] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__type_support.h\n'}
+[18.905393] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__type_support.c\n'}
+[18.905453] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__struct.h\n'}
+[18.905547] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__functions.c\n'}
+[18.905612] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/environment/library_path.sh\n'}
+[18.905673] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/environment/library_path.dsv\n'}
+[18.905734] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_generator_c.so\n'}
+[18.905794] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_generator_c.so" to ""\n'}
+[18.905856] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs\n'}
+[18.905916] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg\n'}
+[18.905977] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail\n'}
+[18.906036] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[18.906095] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.906154] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv\n'}
+[18.906223] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail\n'}
+[18.906281] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__rosidl_typesupport_fastrtps_c.h\n'}
+[18.906339] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__rosidl_typesupport_fastrtps_c.h\n'}
+[18.906398] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action\n'}
+[18.906458] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail\n'}
+[18.906518] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__rosidl_typesupport_fastrtps_c.h\n'}
+[18.906577] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[18.906637] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.906698] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs\n'}
+[18.906760] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg\n'}
+[18.906823] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[18.906883] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail\n'}
+[18.906945] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__builder.hpp\n'}
+[18.907011] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__type_support.hpp\n'}
+[18.907072] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__struct.hpp\n'}
+[18.907139] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__traits.hpp\n'}
+[18.907198] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/test_packet.hpp\n'}
+[18.907255] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv\n'}
+[18.907431] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail\n'}
+[18.907571] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__type_support.hpp\n'}
+[18.907639] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__traits.hpp\n'}
+[18.907700] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__builder.hpp\n'}
+[18.907766] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__traits.hpp\n'}
+[18.907838] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__type_support.hpp\n'}
+[18.907897] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__struct.hpp\n'}
+[18.907956] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__builder.hpp\n'}
+[18.908015] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__struct.hpp\n'}
+[18.908074] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/enable_logging.hpp\n'}
+[18.908136] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/send_data.hpp\n'}
+[18.908196] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action\n'}
+[18.908256] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/launch_rocket.hpp\n'}
+[18.908317] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail\n'}
+[18.908459] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__type_support.hpp\n'}
+[18.908542] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__traits.hpp\n'}
+[18.908607] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__struct.hpp\n'}
+[18.908669] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__builder.hpp\n'}
+[18.908730] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs\n'}
+[18.908792] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg\n'}
+[18.908851] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail\n'}
+[18.908909] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/dds_fastrtps\n'}
+[18.908968] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.909150] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.909218] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv\n'}
+[18.909272] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail\n'}
+[18.909326] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/dds_fastrtps\n'}
+[18.909388] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.909489] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.909554] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action\n'}
+[18.909612] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail\n'}
+[18.909680] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/dds_fastrtps\n'}
+[18.909740] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.911907] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.912160] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.912493] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs\n'}
+[18.912789] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg\n'}
+[18.913203] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail\n'}
+[18.913485] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__type_support.c\n'}
+[18.913808] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__rosidl_typesupport_introspection_c.h\n'}
+[18.914353] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.914618] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv\n'}
+[18.914707] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail\n'}
+[18.914769] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__type_support.c\n'}
+[18.914831] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__type_support.c\n'}
+[18.914893] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__rosidl_typesupport_introspection_c.h\n'}
+[18.915012] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__rosidl_typesupport_introspection_c.h\n'}
+[18.915519] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action\n'}
+[18.915756] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail\n'}
+[18.915914] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__type_support.c\n'}
+[18.916411] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__rosidl_typesupport_introspection_c.h\n'}
+[18.916958] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_introspection_c.so\n'}
+[18.917329] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.917773] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_c.so\n'}
+[18.918716] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_c.so" to ""\n'}
+[18.918817] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs\n'}
+[18.918886] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg\n'}
+[18.918966] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail\n'}
+[18.919035] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__type_support.cpp\n'}
+[18.919098] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/msg/detail/test_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.919160] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv\n'}
+[18.919221] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail\n'}
+[18.919283] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__type_support.cpp\n'}
+[18.919747] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/enable_logging__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.919872] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.920049] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/srv/detail/send_data__type_support.cpp\n'}
+[18.921059] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action\n'}
+[18.921694] (rob499_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail\n'}
+[18.922532] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.923260] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/include/rob499_msgs/rob499_msgs/action/detail/launch_rocket__type_support.cpp\n'}
+[18.923604] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[18.924512] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.924927] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_cpp.so\n'}
+[18.925160] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[18.925232] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/environment/pythonpath.sh\n'}
+[18.925317] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/environment/pythonpath.dsv\n'}
+[18.925382] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs-0.0.0-py3.12.egg-info\n'}
+[18.925448] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[18.925512] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[18.926084] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[18.926237] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[18.926306] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs\n'}
+[18.927171] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/rob499_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[18.927809] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/_rob499_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[18.928453] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/__init__.py\n'}
+[18.928598] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/rob499_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[18.928851] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/rob499_msgs_s__rosidl_typesupport_c.so\n'}
+[18.929596] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/msg\n'}
+[18.930069] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/msg/__init__.py\n'}
+[18.930740] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/msg/_test_packet.py\n'}
+[18.930833] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/msg/_test_packet_s.c\n'}
+[18.930897] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv\n'}
+[18.930959] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv/_send_data_s.c\n'}
+[18.931034] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv/_enable_logging_s.c\n'}
+[18.931990] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv/_enable_logging.py\n'}
+[18.933364] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv/__init__.py\n'}
+[18.934444] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv/_send_data.py\n'}
+[18.935289] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/action\n'}
+[18.935447] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/action/__init__.py\n'}
+[18.935780] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/action/_launch_rocket_s.c\n'}
+[18.935888] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/action/_launch_rocket.py\n'}
+[18.935950] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/_rob499_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.937320] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/_rob499_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.962831] (-) TimerEvent: {}
+[19.041280] (rob499_msgs) StdoutLine: {'line': b"Listing '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs'...\n"}
+[19.044222] (rob499_msgs) StdoutLine: {'line': b"Compiling '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/__init__.py'...\n"}
+[19.044317] (rob499_msgs) StdoutLine: {'line': b"Listing '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/action'...\n"}
+[19.044384] (rob499_msgs) StdoutLine: {'line': b"Compiling '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/action/__init__.py'...\n"}
+[19.044448] (rob499_msgs) StdoutLine: {'line': b"Compiling '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/action/_launch_rocket.py'...\n"}
+[19.044513] (rob499_msgs) StdoutLine: {'line': b"Listing '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/msg'...\n"}
+[19.044576] (rob499_msgs) StdoutLine: {'line': b"Compiling '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/msg/__init__.py'...\n"}
+[19.044639] (rob499_msgs) StdoutLine: {'line': b"Compiling '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/msg/_test_packet.py'...\n"}
+[19.044701] (rob499_msgs) StdoutLine: {'line': b"Listing '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv'...\n"}
+[19.044765] (rob499_msgs) StdoutLine: {'line': b"Compiling '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv/__init__.py'...\n"}
+[19.044830] (rob499_msgs) StdoutLine: {'line': b"Compiling '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv/_enable_logging.py'...\n"}
+[19.044894] (rob499_msgs) StdoutLine: {'line': b"Compiling '/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/srv/_send_data.py'...\n"}
+[19.058733] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/rob499_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[19.059524] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/rob499_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.059769] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/rob499_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[19.059843] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/rob499_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.059908] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/rob499_msgs_s__rosidl_typesupport_c.so\n'}
+[19.060062] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages/rob499_msgs/rob499_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[19.060133] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_generator_py.so\n'}
+[19.060282] (rob499_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/rob499_msgs/lib/librob499_msgs__rosidl_generator_py.so" to ""\n'}
+[19.060366] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/msg/TestPacket.idl\n'}
+[19.060429] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/srv/SendData.idl\n'}
+[19.060626] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/srv/EnableLogging.idl\n'}
+[19.061421] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/action/LaunchRocket.idl\n'}
+[19.062272] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/msg/TestPacket.msg\n'}
+[19.062678] (-) TimerEvent: {}
+[19.063394] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/srv/SendData.srv\n'}
+[19.064864] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/srv/EnableLogging.srv\n'}
+[19.065447] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/action/LaunchRocket.action\n'}
+[19.065767] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/ament_index/resource_index/package_run_dependencies/rob499_msgs\n'}
+[19.066383] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/ament_index/resource_index/parent_prefix_path/rob499_msgs\n'}
+[19.066722] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/environment/ament_prefix_path.sh\n'}
+[19.067037] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/environment/ament_prefix_path.dsv\n'}
+[19.067348] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/environment/path.sh\n'}
+[19.069807] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/environment/path.dsv\n'}
+[19.069986] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/local_setup.bash\n'}
+[19.070059] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/local_setup.sh\n'}
+[19.070121] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/local_setup.zsh\n'}
+[19.070415] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/local_setup.dsv\n'}
+[19.070515] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/package.dsv\n'}
+[19.070579] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/ament_index/resource_index/packages/rob499_msgs\n'}
+[19.070641] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/export_rob499_msgs__rosidl_generator_cExport.cmake\n'}
+[19.070702] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/export_rob499_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.070782] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/export_rob499_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.070843] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/export_rob499_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.071526] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/export_rob499_msgs__rosidl_generator_cppExport.cmake\n'}
+[19.071872] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/export_rob499_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.072279] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/export_rob499_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.072678] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.075250] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.076061] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgs__rosidl_typesupport_cExport.cmake\n'}
+[19.081022] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.081227] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.081305] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.081372] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[19.081436] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.081500] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/export_rob499_msgs__rosidl_generator_pyExport.cmake\n'}
+[19.081564] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/export_rob499_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.081628] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[19.081695] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.081780] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.081854] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.081928] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.081996] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.082493] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.082649] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgsConfig.cmake\n'}
+[19.082719] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake/rob499_msgsConfig-version.cmake\n'}
+[19.082805] (rob499_msgs) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/package.xml\n'}
+[19.084566] (rob499_msgs) CommandEnded: {'returncode': 0}
+[19.132528] (rob499_msgs) JobEnded: {'identifier': 'rob499_msgs', 'rc': 0}
+[19.134276] (-) EventReactorShutdown: {}

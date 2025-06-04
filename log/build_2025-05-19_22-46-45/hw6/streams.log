@@ -1,0 +1,14 @@
+[0.061s] Invoking command in '/home/hungatec/rob499_ws/build/hw6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4
+[0.292s] [ 25%] Built target data_receiver
+[0.316s] [ 50%] Built target data_sender
+[0.334s] [ 75%] Built target oscope
+[0.352s] [ 87%] [32mBuilding CXX object CMakeFiles/limiter.dir/src/limiter.cpp.o[0m
+[5.975s] [01m[K/home/hungatec/rob499_ws/src/hw6/src/limiter.cpp:39:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kdouble[m[K’ in initialization
+[5.975s]    39 |         double limit_ = [01;31m[Kthis->get_parameter("limit")[m[K;
+[5.975s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[5.975s]       |                                            [01;31m[K|[m[K
+[5.975s]       |                                            [01;31m[Krclcpp::Parameter[m[K
+[9.991s] gmake[2]: *** [CMakeFiles/limiter.dir/build.make:76: CMakeFiles/limiter.dir/src/limiter.cpp.o] Error 1
+[9.993s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/limiter.dir/all] Error 2
+[9.993s] gmake: *** [Makefile:146: all] Error 2
+[10.002s] Invoked command in '/home/hungatec/rob499_ws/build/hw6' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4

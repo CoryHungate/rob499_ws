@@ -1,0 +1,37 @@
+[2.142s] Invoking command in '/home/hungatec/rob499_ws/src/rob599/rob599_basic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/rob599_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rob599_basic build --build-base /home/hungatec/rob499_ws/build/rob599_basic/build install --record /home/hungatec/rob499_ws/build/rob599_basic/install.log --single-version-externally-managed install_data
+[2.856s] running egg_info
+[2.897s] writing ../../../build/rob599_basic/rob599_basic.egg-info/PKG-INFO
+[2.897s] writing dependency_links to ../../../build/rob599_basic/rob599_basic.egg-info/dependency_links.txt
+[2.900s] writing entry points to ../../../build/rob599_basic/rob599_basic.egg-info/entry_points.txt
+[2.912s] writing requirements to ../../../build/rob599_basic/rob599_basic.egg-info/requires.txt
+[2.912s] writing top-level names to ../../../build/rob599_basic/rob599_basic.egg-info/top_level.txt
+[3.041s] reading manifest file '../../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+[3.041s] adding license file 'LICENSE'
+[3.041s] writing manifest file '../../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+[3.041s] running build
+[3.041s] running build_py
+[3.042s] running install
+[3.076s] running install_lib
+[3.148s] running install_data
+[3.154s] running install_egg_info
+[3.234s] removing '/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic-0.1.0-py3.12.egg-info' (and everything under it)
+[3.235s] Copying ../../../build/rob599_basic/rob599_basic.egg-info to /home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic-0.1.0-py3.12.egg-info
+[3.236s] running install_scripts
+[3.624s] Installing action_client script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.624s] Installing action_client_with_cancel script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.624s] Installing action_server script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.624s] Installing bag_writer script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.624s] Installing custom_publisher script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.624s] Installing custom_subscriber script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.624s] Installing doubler script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.624s] Installing marker script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.624s] Installing noiser script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.625s] Installing param_demo script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.625s] Installing publisher script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.625s] Installing service_client script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.625s] Installing service_server script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.625s] Installing subscriber script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.625s] Installing twice script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.626s] Installing useless script to /home/hungatec/rob499_ws/install/rob599_basic/lib/rob599_basic
+[3.626s] writing list of installed files to '/home/hungatec/rob499_ws/build/rob599_basic/install.log'
+[3.846s] Invoked command in '/home/hungatec/rob499_ws/src/rob599/rob599_basic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/rob599_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rob599_basic build --build-base /home/hungatec/rob499_ws/build/rob599_basic/build install --record /home/hungatec/rob499_ws/build/rob599_basic/install.log --single-version-externally-managed install_data

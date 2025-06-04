@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/rob499_project/rob499_project.egg-info/PKG-INFO
+writing dependency_links to ../../build/rob499_project/rob499_project.egg-info/dependency_links.txt
+writing entry points to ../../build/rob499_project/rob499_project.egg-info/entry_points.txt
+writing requirements to ../../build/rob499_project/rob499_project.egg-info/requires.txt
+writing top-level names to ../../build/rob499_project/rob499_project.egg-info/top_level.txt
+reading manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rob499_project/serial_data_publisher.py -> /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project
+copying rob499_project/x_vel_node.py -> /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project
+running install
+running install_lib
+copying /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project/serial_data_publisher.py -> /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project
+copying /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project/x_vel_node.py -> /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project
+byte-compiling /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project/serial_data_publisher.py to serial_data_publisher.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project/x_vel_node.py to x_vel_node.cpython-312.pyc
+running install_data
+copying package.xml -> /home/hungatec/rob499_ws/install/rob499_project/share/rob499_project
+running install_egg_info
+removing '/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/rob499_project/rob499_project.egg-info to /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dummy_parameter script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+Installing serial_data script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+Installing virtual_serial_data script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+Installing x_vel script to /home/hungatec/rob499_ws/install/rob499_project/lib/rob499_project
+writing list of installed files to '/home/hungatec/rob499_ws/build/rob499_project/install.log'

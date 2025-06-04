@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/rob499_project/rob499_project.egg-info/PKG-INFO
+writing dependency_links to ../../build/rob499_project/rob499_project.egg-info/dependency_links.txt
+writing requirements to ../../build/rob499_project/rob499_project.egg-info/requires.txt
+writing top-level names to ../../build/rob499_project/rob499_project.egg-info/top_level.txt
+reading manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rob499_project/rob499_project.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rob499_project/test.py -> /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project
+running install
+running install_lib
+copying /home/hungatec/rob499_ws/build/rob499_project/build/lib/rob499_project/test.py -> /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project
+byte-compiling /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project/test.py to test.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/rob499_project/rob499_project.egg-info to /home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages/rob499_project-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/hungatec/rob499_ws/build/rob499_project/install.log'

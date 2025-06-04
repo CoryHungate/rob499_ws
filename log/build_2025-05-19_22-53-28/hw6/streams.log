@@ -1,0 +1,62 @@
+[0.056s] Invoking command in '/home/hungatec/rob499_ws/build/hw6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4
+[0.127s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.857s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.932s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.957s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.983s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.178s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.180s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.359s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.509s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.613s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.653s] -- Found rob499_msgs: 0.0.0 (/home/hungatec/rob499_ws/install/rob499_msgs/share/rob499_msgs/cmake)
+[1.731s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.011s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.011s] -- Configured cppcheck include dirs: 
+[2.011s] -- Configured cppcheck exclude dirs and/or files: 
+[2.012s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.012s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.015s] -- Added test 'lint_cmake' to check CMake code style
+[2.017s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.019s] -- Added test 'uncrustify' to check C / C++ code style
+[2.019s] -- Configured uncrustify additional arguments: 
+[2.020s] -- Added test 'xmllint' to check XML markup files
+[2.022s] -- Configuring done (1.9s)
+[2.105s] -- Generating done (0.1s)
+[2.129s] -- Build files have been written to: /home/hungatec/rob499_ws/build/hw6
+[2.288s] [ 25%] Built target data_receiver
+[2.289s] [ 50%] Built target data_sender
+[2.307s] [ 62%] [32mBuilding CXX object CMakeFiles/limiter.dir/src/limiter.cpp.o[0m
+[2.328s] [ 87%] Built target oscope
+[15.539s] [100%] [32m[1mLinking CXX executable limiter[0m
+[16.200s] [100%] Built target limiter
+[16.247s] Invoked command in '/home/hungatec/rob499_ws/build/hw6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw6 -- -j4 -l4
+[16.289s] Invoking command in '/home/hungatec/rob499_ws/build/hw6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/hw6
+[16.311s] -- Install configuration: ""
+[16.315s] -- Installing: /home/hungatec/rob499_ws/install/hw6/lib/hw6/oscope
+[16.318s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw6/lib/hw6/oscope" to ""
+[16.318s] -- Installing: /home/hungatec/rob499_ws/install/hw6/lib/hw6/limiter
+[16.323s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw6/lib/hw6/limiter" to ""
+[16.325s] -- Installing: /home/hungatec/rob499_ws/install/hw6/lib/hw6/data_sender
+[16.333s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw6/lib/hw6/data_sender" to ""
+[16.337s] -- Installing: /home/hungatec/rob499_ws/install/hw6/lib/hw6/data_receiver
+[16.340s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw6/lib/hw6/data_receiver" to ""
+[16.341s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/launch
+[16.342s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/launch/limited_oscope.py
+[16.343s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/ament_index/resource_index/package_run_dependencies/hw6
+[16.344s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/ament_index/resource_index/parent_prefix_path/hw6
+[16.347s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/ament_prefix_path.sh
+[16.348s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/ament_prefix_path.dsv
+[16.352s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/path.sh
+[16.352s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/environment/path.dsv
+[16.354s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.bash
+[16.355s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.sh
+[16.355s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.zsh
+[16.355s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/local_setup.dsv
+[16.356s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/package.dsv
+[16.362s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/ament_index/resource_index/packages/hw6
+[16.362s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/cmake/hw6Config.cmake
+[16.362s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/cmake/hw6Config-version.cmake
+[16.362s] -- Installing: /home/hungatec/rob499_ws/install/hw6/share/hw6/package.xml
+[16.378s] Invoked command in '/home/hungatec/rob499_ws/build/hw6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/hw6
