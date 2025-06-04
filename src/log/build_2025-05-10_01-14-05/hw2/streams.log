@@ -1,0 +1,32 @@
+[3.477s] Invoking command in '/home/hungatec/rob499_ws/src/hw2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/src/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hw2 build --build-base /home/hungatec/rob499_ws/src/build/hw2/build install --record /home/hungatec/rob499_ws/src/build/hw2/install.log --single-version-externally-managed install_data
+[4.238s] running egg_info
+[4.301s] writing ../build/hw2/hw2.egg-info/PKG-INFO
+[4.304s] writing dependency_links to ../build/hw2/hw2.egg-info/dependency_links.txt
+[4.305s] writing entry points to ../build/hw2/hw2.egg-info/entry_points.txt
+[4.305s] writing requirements to ../build/hw2/hw2.egg-info/requires.txt
+[4.308s] writing top-level names to ../build/hw2/hw2.egg-info/top_level.txt
+[4.432s] reading manifest file '../build/hw2/hw2.egg-info/SOURCES.txt'
+[4.432s] adding license file 'LICENSE'
+[4.433s] writing manifest file '../build/hw2/hw2.egg-info/SOURCES.txt'
+[4.434s] running build
+[4.441s] running build_py
+[4.445s] copying hw2/oscope.py -> /home/hungatec/rob499_ws/src/build/hw2/build/lib/hw2
+[4.445s] copying hw2/limiter.py -> /home/hungatec/rob499_ws/src/build/hw2/build/lib/hw2
+[4.445s] running install
+[4.474s] running install_lib
+[4.530s] copying /home/hungatec/rob499_ws/src/build/hw2/build/lib/hw2/oscope.py -> /home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages/hw2
+[4.530s] copying /home/hungatec/rob499_ws/src/build/hw2/build/lib/hw2/limiter.py -> /home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages/hw2
+[4.534s] byte-compiling /home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages/hw2/oscope.py to oscope.cpython-312.pyc
+[4.543s] byte-compiling /home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages/hw2/limiter.py to limiter.cpython-312.pyc
+[4.544s] running install_data
+[4.544s] copying package.xml -> /home/hungatec/rob499_ws/src/install/hw2/share/hw2
+[4.552s] running install_egg_info
+[4.617s] removing '/home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info' (and everything under it)
+[4.623s] Copying ../build/hw2/hw2.egg-info to /home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info
+[4.626s] running install_scripts
+[5.177s] Installing fast_wave script to /home/hungatec/rob499_ws/src/install/hw2/lib/hw2
+[5.178s] Installing limiter script to /home/hungatec/rob499_ws/src/install/hw2/lib/hw2
+[5.187s] Installing oscope script to /home/hungatec/rob499_ws/src/install/hw2/lib/hw2
+[5.188s] Installing slow_wave script to /home/hungatec/rob499_ws/src/install/hw2/lib/hw2
+[5.188s] writing list of installed files to '/home/hungatec/rob499_ws/src/build/hw2/install.log'
+[5.685s] Invoked command in '/home/hungatec/rob499_ws/src/hw2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/src/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hw2 build --build-base /home/hungatec/rob499_ws/src/build/hw2/build install --record /home/hungatec/rob499_ws/src/build/hw2/install.log --single-version-externally-managed install_data

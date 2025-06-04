@@ -1,0 +1,90 @@
+[0.924s] Invoking command in '/home/hungatec/rob499_ws/src/build/rob499_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/src/build/rob499_msgs -- -j4 -l4
+[1.075s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.089s] [  1%] Built target ament_cmake_python_copy_rob499_msgs
+[1.507s] running egg_info
+[1.507s] creating rob499_msgs.egg-info
+[1.534s] writing rob499_msgs.egg-info/PKG-INFO
+[1.537s] writing dependency_links to rob499_msgs.egg-info/dependency_links.txt
+[1.537s] writing top-level names to rob499_msgs.egg-info/top_level.txt
+[1.537s] writing manifest file 'rob499_msgs.egg-info/SOURCES.txt'
+[1.633s] reading manifest file 'rob499_msgs.egg-info/SOURCES.txt'
+[1.635s] writing manifest file 'rob499_msgs.egg-info/SOURCES.txt'
+[1.733s] [  1%] Built target ament_cmake_python_build_rob499_msgs_egg
+[1.840s] [  1%] Built target rob499_msgs__rosidl_generator_type_description
+[1.899s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.950s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.523s] [  4%] Built target rob499_msgs__cpp
+[3.607s] [  6%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/msg/detail/test_packet__type_support.c.o[0m
+[3.611s] [  7%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/msg/detail/test_packet__functions.c.o[0m
+[3.624s] [  9%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/msg/detail/test_packet__description.c.o[0m
+[3.627s] [ 10%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/send_data__description.c.o[0m
+[3.920s] [ 12%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/send_data__functions.c.o[0m
+[3.941s] [ 14%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/send_data__type_support.c.o[0m
+[3.991s] [ 15%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/enable_logging__functions.c.o[0m
+[3.993s] [ 17%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/enable_logging__description.c.o[0m
+[4.082s] [ 18%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/srv/detail/enable_logging__type_support.c.o[0m
+[4.175s] [ 20%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/action/detail/launch_rocket__description.c.o[0m
+[4.187s] [ 21%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/action/detail/launch_rocket__functions.c.o[0m
+[4.198s] [ 23%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_c.dir/rosidl_generator_c/rob499_msgs/action/detail/launch_rocket__type_support.c.o[0m
+[4.548s] [ 25%] [32m[1mLinking C shared library librob499_msgs__rosidl_generator_c.so[0m
+[4.651s] [ 25%] Built target rob499_msgs__rosidl_generator_c
+[4.697s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.697s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.699s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.700s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.535s] [ 32%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob499_msgs/msg/test_packet__type_support.cpp.o[0m
+[5.744s] [ 34%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob499_msgs/srv/send_data__type_support.cpp.o[0m
+[5.839s] [ 35%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob499_msgs/srv/enable_logging__type_support.cpp.o[0m
+[5.932s] [ 37%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob499_msgs/action/launch_rocket__type_support.cpp.o[0m
+[5.992s] [ 39%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob499_msgs/msg/detail/test_packet__type_support.c.o[0m
+[6.054s] [ 40%] [32m[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_c.so[0m
+[6.085s] [ 42%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob499_msgs/srv/detail/send_data__type_support.c.o[0m
+[6.206s] [ 42%] Built target rob499_msgs__rosidl_typesupport_c
+[6.252s] [ 43%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob499_msgs/srv/detail/enable_logging__type_support.c.o[0m
+[6.269s] [ 45%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob499_msgs/action/detail/launch_rocket__type_support.c.o[0m
+[6.296s] [ 46%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob499_msgs/msg/detail/dds_fastrtps/test_packet__type_support.cpp.o[0m
+[6.369s] [ 48%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob499_msgs/srv/detail/dds_fastrtps/send_data__type_support.cpp.o[0m
+[6.428s] [ 50%] [32m[1mLinking C shared library librob499_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.472s] [ 51%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob499_msgs/msg/detail/test_packet__type_support_c.cpp.o[0m
+[6.513s] [ 51%] Built target rob499_msgs__rosidl_typesupport_introspection_c
+[6.538s] [ 53%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.412s] [ 54%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob499_msgs/msg/detail/test_packet__type_support.cpp.o[0m
+[7.457s] [ 56%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob499_msgs/srv/detail/send_data__type_support_c.cpp.o[0m
+[7.543s] [ 57%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob499_msgs/srv/detail/enable_logging__type_support_c.cpp.o[0m
+[7.688s] [ 59%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob499_msgs/srv/detail/dds_fastrtps/enable_logging__type_support.cpp.o[0m
+[8.048s] [ 60%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob499_msgs/srv/detail/send_data__type_support.cpp.o[0m
+[8.358s] [ 62%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob499_msgs/action/detail/dds_fastrtps/launch_rocket__type_support.cpp.o[0m
+[8.416s] [ 64%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob499_msgs/action/detail/launch_rocket__type_support_c.cpp.o[0m
+[8.672s] [ 65%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob499_msgs/srv/detail/enable_logging__type_support.cpp.o[0m
+[8.749s] [ 67%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob499_msgs/action/detail/launch_rocket__type_support.cpp.o[0m
+[9.353s] [ 68%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.394s] [ 70%] [32m[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.560s] [ 70%] Built target rob499_msgs__rosidl_typesupport_fastrtps_c
+[10.028s] [ 71%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob499_msgs/srv/send_data__type_support.cpp.o[0m
+[10.032s] [ 73%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob499_msgs/msg/test_packet__type_support.cpp.o[0m
+[10.043s] [ 75%] [32m[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.114s] [ 76%] [32m[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.200s] [ 76%] Built target rob499_msgs__rosidl_typesupport_introspection_cpp
+[10.223s] [ 78%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob499_msgs/srv/enable_logging__type_support.cpp.o[0m
+[10.300s] [ 78%] Built target rob499_msgs__rosidl_typesupport_fastrtps_cpp
+[10.314s] [ 79%] [32mBuilding CXX object CMakeFiles/rob499_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob499_msgs/action/launch_rocket__type_support.cpp.o[0m
+[11.367s] [ 81%] [32m[1mLinking CXX shared library librob499_msgs__rosidl_typesupport_cpp.so[0m
+[11.493s] [ 81%] Built target rob499_msgs__rosidl_typesupport_cpp
+[11.524s] [ 81%] Built target rob499_msgs
+[11.562s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.875s] [ 82%] Built target rob499_msgs__py
+[12.914s] [ 89%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob499_msgs/srv/_send_data_s.c.o[0m
+[12.914s] [ 89%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob499_msgs/action/_launch_rocket_s.c.o[0m
+[12.914s] [ 89%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob499_msgs/msg/_test_packet_s.c.o[0m
+[12.914s] [ 89%] [32mBuilding C object CMakeFiles/rob499_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob499_msgs/srv/_enable_logging_s.c.o[0m
+[13.366s] [ 90%] [32m[1mLinking C shared library librob499_msgs__rosidl_generator_py.so[0m
+[13.436s] [ 90%] Built target rob499_msgs__rosidl_generator_py
+[13.479s] [ 93%] [32mBuilding C object CMakeFiles/rob499_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rob499_msgs/_rob499_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.482s] [ 93%] [32mBuilding C object CMakeFiles/rob499_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/rob499_msgs/_rob499_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.486s] [ 95%] [32mBuilding C object CMakeFiles/rob499_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rob499_msgs/_rob499_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.712s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/rob499_msgs/rob499_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[13.714s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/rob499_msgs/rob499_msgs_s__rosidl_typesupport_c.so[0m
+[13.729s] [100%] [32m[1mLinking C shared module rosidl_generator_py/rob499_msgs/rob499_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[13.781s] [100%] Built target rob499_msgs_s__rosidl_typesupport_introspection_c
+[13.786s] [100%] Built target rob499_msgs_s__rosidl_typesupport_c
+[13.799s] [100%] Built target rob499_msgs_s__rosidl_typesupport_fastrtps_c

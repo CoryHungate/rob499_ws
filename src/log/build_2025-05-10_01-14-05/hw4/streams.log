@@ -1,0 +1,51 @@
+[3.369s] Invoking command in '/home/hungatec/rob499_ws/src/hw4': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/src/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hw4 build --build-base /home/hungatec/rob499_ws/src/build/hw4/build install --record /home/hungatec/rob499_ws/src/build/hw4/install.log --single-version-externally-managed install_data
+[4.122s] running egg_info
+[4.122s] creating ../build/hw4/hw4.egg-info
+[4.200s] writing ../build/hw4/hw4.egg-info/PKG-INFO
+[4.200s] writing dependency_links to ../build/hw4/hw4.egg-info/dependency_links.txt
+[4.201s] writing entry points to ../build/hw4/hw4.egg-info/entry_points.txt
+[4.202s] writing requirements to ../build/hw4/hw4.egg-info/requires.txt
+[4.202s] writing top-level names to ../build/hw4/hw4.egg-info/top_level.txt
+[4.203s] writing manifest file '../build/hw4/hw4.egg-info/SOURCES.txt'
+[4.331s] reading manifest file '../build/hw4/hw4.egg-info/SOURCES.txt'
+[4.331s] adding license file 'LICENSE'
+[4.331s] writing manifest file '../build/hw4/hw4.egg-info/SOURCES.txt'
+[4.332s] running build
+[4.332s] running build_py
+[4.332s] creating /home/hungatec/rob499_ws/src/build/hw4/build
+[4.332s] creating /home/hungatec/rob499_ws/src/build/hw4/build/lib
+[4.332s] creating /home/hungatec/rob499_ws/src/build/hw4/build/lib/hw4
+[4.332s] copying hw4/action_server.py -> /home/hungatec/rob499_ws/src/build/hw4/build/lib/hw4
+[4.336s] copying hw4/__init__.py -> /home/hungatec/rob499_ws/src/build/hw4/build/lib/hw4
+[4.342s] copying hw4/action_client.py -> /home/hungatec/rob499_ws/src/build/hw4/build/lib/hw4
+[4.344s] copying hw4/oscope.py -> /home/hungatec/rob499_ws/src/build/hw4/build/lib/hw4
+[4.344s] running install
+[4.363s] running install_lib
+[4.426s] creating /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4
+[4.432s] copying /home/hungatec/rob499_ws/src/build/hw4/build/lib/hw4/action_server.py -> /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4
+[4.432s] copying /home/hungatec/rob499_ws/src/build/hw4/build/lib/hw4/__init__.py -> /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4
+[4.432s] copying /home/hungatec/rob499_ws/src/build/hw4/build/lib/hw4/action_client.py -> /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4
+[4.433s] copying /home/hungatec/rob499_ws/src/build/hw4/build/lib/hw4/oscope.py -> /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4
+[4.433s] byte-compiling /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4/action_server.py to action_server.cpython-312.pyc
+[4.437s] byte-compiling /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4/__init__.py to __init__.cpython-312.pyc
+[4.438s] byte-compiling /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4/action_client.py to action_client.cpython-312.pyc
+[4.440s] byte-compiling /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4/oscope.py to oscope.cpython-312.pyc
+[4.443s] running install_data
+[4.443s] creating /home/hungatec/rob499_ws/src/install/hw4/share/ament_index
+[4.443s] creating /home/hungatec/rob499_ws/src/install/hw4/share/ament_index/resource_index
+[4.443s] creating /home/hungatec/rob499_ws/src/install/hw4/share/ament_index/resource_index/packages
+[4.443s] copying resource/hw4 -> /home/hungatec/rob499_ws/src/install/hw4/share/ament_index/resource_index/packages
+[4.443s] copying package.xml -> /home/hungatec/rob499_ws/src/install/hw4/share/hw4
+[4.444s] creating /home/hungatec/rob499_ws/src/install/hw4/share/hw4/launch
+[4.444s] copying launch/launch_rocket.py -> /home/hungatec/rob499_ws/src/install/hw4/share/hw4/launch
+[4.455s] copying launch/launch_oscopes.py -> /home/hungatec/rob499_ws/src/install/hw4/share/hw4/launch
+[4.455s] copying launch/dont_launch_rocket.py -> /home/hungatec/rob499_ws/src/install/hw4/share/hw4/launch
+[4.455s] running install_egg_info
+[4.506s] Copying ../build/hw4/hw4.egg-info to /home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages/hw4-0.0.0-py3.12.egg-info
+[4.509s] running install_scripts
+[5.018s] Installing canceled_listener script to /home/hungatec/rob499_ws/src/install/hw4/lib/hw4
+[5.022s] Installing launcher script to /home/hungatec/rob499_ws/src/install/hw4/lib/hw4
+[5.024s] Installing listener script to /home/hungatec/rob499_ws/src/install/hw4/lib/hw4
+[5.024s] Installing oscope script to /home/hungatec/rob499_ws/src/install/hw4/lib/hw4
+[5.031s] writing list of installed files to '/home/hungatec/rob499_ws/src/build/hw4/install.log'
+[5.607s] Invoked command in '/home/hungatec/rob499_ws/src/hw4' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/src/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/src/install/hw4/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hw4 build --build-base /home/hungatec/rob499_ws/src/build/hw4/build install --record /home/hungatec/rob499_ws/src/build/hw4/install.log --single-version-externally-managed install_data

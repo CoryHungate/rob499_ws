@@ -1,0 +1,65 @@
+running egg_info
+creating ../../build/rob599_basic/rob599_basic.egg-info
+writing ../../build/rob599_basic/rob599_basic.egg-info/PKG-INFO
+writing dependency_links to ../../build/rob599_basic/rob599_basic.egg-info/dependency_links.txt
+writing entry points to ../../build/rob599_basic/rob599_basic.egg-info/entry_points.txt
+writing requirements to ../../build/rob599_basic/rob599_basic.egg-info/requires.txt
+writing top-level names to ../../build/rob599_basic/rob599_basic.egg-info/top_level.txt
+writing manifest file '../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+reading manifest file '../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hungatec/rob499_ws/src/build/rob599_basic/build
+creating /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib
+creating /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/subscriber.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/params.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/action_server.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/messages.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/bag_writer.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/__init__.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/value_manipulator.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/action_client.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/service_server.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/marker.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/node.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/publisher.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/service_client.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+copying rob599_basic/twice.py -> /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic
+running install
+running install_lib
+creating /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/subscriber.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/params.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/action_server.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/messages.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/bag_writer.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/__init__.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/value_manipulator.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/action_client.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/service_server.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/marker.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/node.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/publisher.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/service_client.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+copying /home/hungatec/rob499_ws/src/build/rob599_basic/build/lib/rob599_basic/twice.py -> /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/subscriber.py to subscriber.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/params.py to params.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/action_server.py to action_server.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/messages.py to messages.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/bag_writer.py to bag_writer.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/value_manipulator.py to value_manipulator.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/action_client.py to action_client.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/service_server.py to service_server.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/marker.py to marker.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/node.py to node.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/publisher.py to publisher.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/service_client.py to service_client.cpython-312.pyc
+byte-compiling /home/hungatec/rob499_ws/src/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/twice.py to twice.cpython-312.pyc
+running install_data
+creating /home/hungatec/rob499_ws/src/install/rob599_basic/share/ament_index
+creating /home/hungatec/rob499_ws/src/install/rob599_basic/share/ament_index/resource_index
+creating /home/hungatec/rob499_ws/src/install/rob599_basic/share/ament_index/resource_index/packages

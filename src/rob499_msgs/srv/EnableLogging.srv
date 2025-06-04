@@ -1,0 +1,4 @@
+bool enabled
+string filename
+---
+string message

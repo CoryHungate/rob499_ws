@@ -1,0 +1,45 @@
+[0.031s] Invoking command in '/home/hungatec/rob499_ws/src/build/rob599_basic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hungatec/rob499_ws/src/rob599/rob599_basic_cpp -DCMAKE_INSTALL_PREFIX=/home/hungatec/rob499_ws/src/install/rob599_basic_cpp
+[0.146s] -- The C compiler identification is GNU 13.3.0
+[0.251s] -- The CXX compiler identification is GNU 13.3.0
+[0.277s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.495s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.495s] -- Detecting C compile features
+[0.497s] -- Detecting C compile features - done
+[0.518s] -- Detecting CXX compiler ABI info
+[0.753s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.768s] -- Detecting CXX compile features
+[0.770s] -- Detecting CXX compile features - done
+[0.779s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.035s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.274s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.348s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.388s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.759s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.773s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.161s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.235s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.556s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[2.660s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.729s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[2.729s]   By not providing "Findrob599_msgs.cmake" in CMAKE_MODULE_PATH this project
+[2.729s]   has asked CMake to find a package configuration file provided by
+[2.729s]   "rob599_msgs", but CMake did not find one.
+[2.729s] 
+[2.729s]   Could not find a package configuration file provided by "rob599_msgs" with
+[2.729s]   any of the following names:
+[2.729s] 
+[2.729s]     rob599_msgsConfig.cmake
+[2.730s]     rob599_msgs-config.cmake
+[2.730s] 
+[2.730s]   Add the installation prefix of "rob599_msgs" to CMAKE_PREFIX_PATH or set
+[2.730s]   "rob599_msgs_DIR" to a directory containing one of the above files.  If
+[2.730s]   "rob599_msgs" provides a separate development package or SDK, be sure it
+[2.730s]   has been installed.
+[2.730s] 
+[2.730s] [0m
+[2.733s] -- Configuring incomplete, errors occurred!

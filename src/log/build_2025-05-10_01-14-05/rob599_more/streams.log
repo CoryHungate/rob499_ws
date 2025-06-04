@@ -1,0 +1,44 @@
+[1.584s] Invoking command in '/home/hungatec/rob499_ws/src/rob599/rob599_more': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/src/build/rob599_more/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/src/install/rob599_more/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob599_more build --build-base /home/hungatec/rob499_ws/src/build/rob599_more/build install --record /home/hungatec/rob499_ws/src/build/rob599_more/install.log --single-version-externally-managed install_data
+[2.269s] running egg_info
+[2.270s] creating ../../build/rob599_more/rob599_more.egg-info
+[2.307s] writing ../../build/rob599_more/rob599_more.egg-info/PKG-INFO
+[2.309s] writing dependency_links to ../../build/rob599_more/rob599_more.egg-info/dependency_links.txt
+[2.309s] writing entry points to ../../build/rob599_more/rob599_more.egg-info/entry_points.txt
+[2.309s] writing requirements to ../../build/rob599_more/rob599_more.egg-info/requires.txt
+[2.312s] writing top-level names to ../../build/rob599_more/rob599_more.egg-info/top_level.txt
+[2.312s] writing manifest file '../../build/rob599_more/rob599_more.egg-info/SOURCES.txt'
+[2.391s] reading manifest file '../../build/rob599_more/rob599_more.egg-info/SOURCES.txt'
+[2.392s] adding license file 'LICENSE'
+[2.394s] writing manifest file '../../build/rob599_more/rob599_more.egg-info/SOURCES.txt'
+[2.394s] running build
+[2.394s] running build_py
+[2.395s] creating /home/hungatec/rob499_ws/src/build/rob599_more/build
+[2.396s] creating /home/hungatec/rob499_ws/src/build/rob599_more/build/lib
+[2.396s] creating /home/hungatec/rob499_ws/src/build/rob599_more/build/lib/rob599_more
+[2.396s] copying rob599_more/image_modifier.py -> /home/hungatec/rob499_ws/src/build/rob599_more/build/lib/rob599_more
+[2.397s] copying rob599_more/__init__.py -> /home/hungatec/rob499_ws/src/build/rob599_more/build/lib/rob599_more
+[2.397s] copying rob599_more/point_cloud.py -> /home/hungatec/rob499_ws/src/build/rob599_more/build/lib/rob599_more
+[2.397s] running install
+[2.409s] running install_lib
+[2.466s] creating /home/hungatec/rob499_ws/src/install/rob599_more/lib/python3.12/site-packages/rob599_more
+[2.468s] copying /home/hungatec/rob499_ws/src/build/rob599_more/build/lib/rob599_more/image_modifier.py -> /home/hungatec/rob499_ws/src/install/rob599_more/lib/python3.12/site-packages/rob599_more
+[2.469s] copying /home/hungatec/rob499_ws/src/build/rob599_more/build/lib/rob599_more/__init__.py -> /home/hungatec/rob499_ws/src/install/rob599_more/lib/python3.12/site-packages/rob599_more
+[2.469s] copying /home/hungatec/rob499_ws/src/build/rob599_more/build/lib/rob599_more/point_cloud.py -> /home/hungatec/rob499_ws/src/install/rob599_more/lib/python3.12/site-packages/rob599_more
+[2.471s] byte-compiling /home/hungatec/rob499_ws/src/install/rob599_more/lib/python3.12/site-packages/rob599_more/image_modifier.py to image_modifier.cpython-312.pyc
+[2.476s] byte-compiling /home/hungatec/rob499_ws/src/install/rob599_more/lib/python3.12/site-packages/rob599_more/__init__.py to __init__.cpython-312.pyc
+[2.477s] byte-compiling /home/hungatec/rob499_ws/src/install/rob599_more/lib/python3.12/site-packages/rob599_more/point_cloud.py to point_cloud.cpython-312.pyc
+[2.478s] running install_data
+[2.478s] creating /home/hungatec/rob499_ws/src/install/rob599_more/share/ament_index
+[2.479s] creating /home/hungatec/rob499_ws/src/install/rob599_more/share/ament_index/resource_index
+[2.479s] creating /home/hungatec/rob499_ws/src/install/rob599_more/share/ament_index/resource_index/packages
+[2.479s] copying resource/rob599_more -> /home/hungatec/rob499_ws/src/install/rob599_more/share/ament_index/resource_index/packages
+[2.481s] copying package.xml -> /home/hungatec/rob499_ws/src/install/rob599_more/share/rob599_more
+[2.482s] creating /home/hungatec/rob499_ws/src/install/rob599_more/share/rob599_more/launch
+[2.482s] copying launch/image_example_launch.xml -> /home/hungatec/rob499_ws/src/install/rob599_more/share/rob599_more/launch
+[2.482s] running install_egg_info
+[2.542s] Copying ../../build/rob599_more/rob599_more.egg-info to /home/hungatec/rob499_ws/src/install/rob599_more/lib/python3.12/site-packages/rob599_more-0.1.0-py3.12.egg-info
+[2.543s] running install_scripts
+[2.830s] Installing image_modifier script to /home/hungatec/rob499_ws/src/install/rob599_more/lib/rob599_more
+[2.831s] Installing point_cloud_generator script to /home/hungatec/rob499_ws/src/install/rob599_more/lib/rob599_more
+[2.831s] Installing point_cloud_reader script to /home/hungatec/rob499_ws/src/install/rob599_more/lib/rob599_more
+[2.832s] writing list of installed files to '/home/hungatec/rob499_ws/src/build/rob599_more/install.log'

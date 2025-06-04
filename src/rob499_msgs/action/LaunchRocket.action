@@ -1,0 +1,8 @@
+# goal
+int64 countdown
+---
+# result
+string finished
+---
+# feedback
+string progress

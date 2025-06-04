@@ -1,0 +1,31 @@
+[0.082s] Invoking command in '/home/hungatec/rob499_ws/src/build/rob599_basic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hungatec/rob499_ws/src/rob599/rob599_basic_cpp -DCMAKE_INSTALL_PREFIX=/home/hungatec/rob499_ws/src/install/rob599_basic_cpp
+[0.124s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.714s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.761s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.780s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.839s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.986s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.987s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.089s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.194s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.300s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.382s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[1.383s]   By not providing "Findrob599_msgs.cmake" in CMAKE_MODULE_PATH this project
+[1.383s]   has asked CMake to find a package configuration file provided by
+[1.383s] -- Configuring incomplete, errors occurred!
+[1.384s]   "rob599_msgs", but CMake did not find one.
+[1.384s] 
+[1.384s]   Could not find a package configuration file provided by "rob599_msgs" with
+[1.384s]   any of the following names:
+[1.384s] 
+[1.384s]     rob599_msgsConfig.cmake
+[1.384s]     rob599_msgs-config.cmake
+[1.384s] 
+[1.384s]   Add the installation prefix of "rob599_msgs" to CMAKE_PREFIX_PATH or set
+[1.385s]   "rob599_msgs_DIR" to a directory containing one of the above files.  If
+[1.385s]   "rob599_msgs" provides a separate development package or SDK, be sure it
+[1.385s]   has been installed.
+[1.385s] 
+[1.385s] [0m
+[1.417s] Invoked command in '/home/hungatec/rob499_ws/src/build/rob599_basic_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hungatec/rob499_ws/src/rob599/rob599_basic_cpp -DCMAKE_INSTALL_PREFIX=/home/hungatec/rob499_ws/src/install/rob599_basic_cpp

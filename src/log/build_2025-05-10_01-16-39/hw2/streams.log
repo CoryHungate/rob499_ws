@@ -1,0 +1,25 @@
+[2.372s] Invoking command in '/home/hungatec/rob499_ws/src/hw2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/src/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hw2 build --build-base /home/hungatec/rob499_ws/src/build/hw2/build install --record /home/hungatec/rob499_ws/src/build/hw2/install.log --single-version-externally-managed install_data
+[2.858s] running egg_info
+[2.923s] writing ../build/hw2/hw2.egg-info/PKG-INFO
+[2.923s] writing dependency_links to ../build/hw2/hw2.egg-info/dependency_links.txt
+[2.923s] writing entry points to ../build/hw2/hw2.egg-info/entry_points.txt
+[2.923s] writing requirements to ../build/hw2/hw2.egg-info/requires.txt
+[2.923s] writing top-level names to ../build/hw2/hw2.egg-info/top_level.txt
+[2.963s] reading manifest file '../build/hw2/hw2.egg-info/SOURCES.txt'
+[2.964s] adding license file 'LICENSE'
+[2.969s] writing manifest file '../build/hw2/hw2.egg-info/SOURCES.txt'
+[2.977s] running build
+[2.978s] running build_py
+[2.978s] running install
+[3.010s] running install_lib
+[3.033s] running install_data
+[3.034s] running install_egg_info
+[3.061s] removing '/home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info' (and everything under it)
+[3.064s] Copying ../build/hw2/hw2.egg-info to /home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info
+[3.066s] running install_scripts
+[3.318s] Installing fast_wave script to /home/hungatec/rob499_ws/src/install/hw2/lib/hw2
+[3.318s] Installing limiter script to /home/hungatec/rob499_ws/src/install/hw2/lib/hw2
+[3.318s] Installing oscope script to /home/hungatec/rob499_ws/src/install/hw2/lib/hw2
+[3.319s] Installing slow_wave script to /home/hungatec/rob499_ws/src/install/hw2/lib/hw2
+[3.324s] writing list of installed files to '/home/hungatec/rob499_ws/src/build/hw2/install.log'
+[3.771s] Invoked command in '/home/hungatec/rob499_ws/src/hw2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/src/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/src/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hw2 build --build-base /home/hungatec/rob499_ws/src/build/hw2/build install --record /home/hungatec/rob499_ws/src/build/hw2/install.log --single-version-externally-managed install_data

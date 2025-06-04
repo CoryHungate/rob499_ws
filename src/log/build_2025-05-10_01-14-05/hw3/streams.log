@@ -1,0 +1,42 @@
+[3.396s] Invoking command in '/home/hungatec/rob499_ws/src/hw3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/src/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hw3 build --build-base /home/hungatec/rob499_ws/src/build/hw3/build install --record /home/hungatec/rob499_ws/src/build/hw3/install.log --single-version-externally-managed install_data
+[4.092s] running egg_info
+[4.092s] creating ../build/hw3/hw3.egg-info
+[4.159s] writing ../build/hw3/hw3.egg-info/PKG-INFO
+[4.159s] writing dependency_links to ../build/hw3/hw3.egg-info/dependency_links.txt
+[4.162s] writing entry points to ../build/hw3/hw3.egg-info/entry_points.txt
+[4.162s] writing requirements to ../build/hw3/hw3.egg-info/requires.txt
+[4.162s] writing top-level names to ../build/hw3/hw3.egg-info/top_level.txt
+[4.163s] writing manifest file '../build/hw3/hw3.egg-info/SOURCES.txt'
+[4.266s] reading manifest file '../build/hw3/hw3.egg-info/SOURCES.txt'
+[4.266s] adding license file 'LICENSE'
+[4.272s] writing manifest file '../build/hw3/hw3.egg-info/SOURCES.txt'
+[4.272s] running build
+[4.275s] running build_py
+[4.280s] creating /home/hungatec/rob499_ws/src/build/hw3/build
+[4.280s] creating /home/hungatec/rob499_ws/src/build/hw3/build/lib
+[4.280s] creating /home/hungatec/rob499_ws/src/build/hw3/build/lib/hw3
+[4.280s] copying hw3/__init__.py -> /home/hungatec/rob499_ws/src/build/hw3/build/lib/hw3
+[4.280s] copying hw3/data_receiver.py -> /home/hungatec/rob499_ws/src/build/hw3/build/lib/hw3
+[4.280s] copying hw3/data_sender.py -> /home/hungatec/rob499_ws/src/build/hw3/build/lib/hw3
+[4.281s] running install
+[4.292s] running install_lib
+[4.348s] creating /home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages/hw3
+[4.350s] copying /home/hungatec/rob499_ws/src/build/hw3/build/lib/hw3/__init__.py -> /home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages/hw3
+[4.353s] copying /home/hungatec/rob499_ws/src/build/hw3/build/lib/hw3/data_receiver.py -> /home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages/hw3
+[4.353s] copying /home/hungatec/rob499_ws/src/build/hw3/build/lib/hw3/data_sender.py -> /home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages/hw3
+[4.356s] byte-compiling /home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages/hw3/__init__.py to __init__.cpython-312.pyc
+[4.356s] byte-compiling /home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages/hw3/data_receiver.py to data_receiver.cpython-312.pyc
+[4.356s] byte-compiling /home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages/hw3/data_sender.py to data_sender.cpython-312.pyc
+[4.358s] running install_data
+[4.372s] creating /home/hungatec/rob499_ws/src/install/hw3/share/ament_index
+[4.373s] creating /home/hungatec/rob499_ws/src/install/hw3/share/ament_index/resource_index
+[4.373s] creating /home/hungatec/rob499_ws/src/install/hw3/share/ament_index/resource_index/packages
+[4.373s] copying resource/hw3 -> /home/hungatec/rob499_ws/src/install/hw3/share/ament_index/resource_index/packages
+[4.374s] copying package.xml -> /home/hungatec/rob499_ws/src/install/hw3/share/hw3
+[4.374s] running install_egg_info
+[4.423s] Copying ../build/hw3/hw3.egg-info to /home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages/hw3-0.0.0-py3.12.egg-info
+[4.424s] running install_scripts
+[4.812s] Installing data_receiver script to /home/hungatec/rob499_ws/src/install/hw3/lib/hw3
+[4.812s] Installing data_sender script to /home/hungatec/rob499_ws/src/install/hw3/lib/hw3
+[4.815s] writing list of installed files to '/home/hungatec/rob499_ws/src/build/hw3/install.log'
+[4.918s] Invoked command in '/home/hungatec/rob499_ws/src/hw3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/src/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/src/install/hw3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hw3 build --build-base /home/hungatec/rob499_ws/src/build/hw3/build install --record /home/hungatec/rob499_ws/src/build/hw3/install.log --single-version-externally-managed install_data

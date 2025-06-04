@@ -1,0 +1,7 @@
+build/
+install/
+*.pyc
+*.swp
+*.DS_Store
+.env
+.venv

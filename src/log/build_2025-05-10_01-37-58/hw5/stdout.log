@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/hw5/hw5.egg-info
+writing ../build/hw5/hw5.egg-info/PKG-INFO
+writing dependency_links to ../build/hw5/hw5.egg-info/dependency_links.txt
+writing requirements to ../build/hw5/hw5.egg-info/requires.txt
+writing top-level names to ../build/hw5/hw5.egg-info/top_level.txt
+writing manifest file '../build/hw5/hw5.egg-info/SOURCES.txt'
+reading manifest file '../build/hw5/hw5.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/hw5/hw5.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hungatec/rob499_ws/src/build/hw5/build
+creating /home/hungatec/rob499_ws/src/build/hw5/build/lib
+creating /home/hungatec/rob499_ws/src/build/hw5/build/lib/hw5
+copying hw5/__init__.py -> /home/hungatec/rob499_ws/src/build/hw5/build/lib/hw5
+running install
+running install_lib
+creating /home/hungatec/rob499_ws/src/install/hw5/lib/python3.12/site-packages/hw5
+copying /home/hungatec/rob499_ws/src/build/hw5/build/lib/hw5/__init__.py -> /home/hungatec/rob499_ws/src/install/hw5/lib/python3.12/site-packages/hw5
+byte-compiling /home/hungatec/rob499_ws/src/install/hw5/lib/python3.12/site-packages/hw5/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/hungatec/rob499_ws/src/install/hw5/share/ament_index
+creating /home/hungatec/rob499_ws/src/install/hw5/share/ament_index/resource_index
+creating /home/hungatec/rob499_ws/src/install/hw5/share/ament_index/resource_index/packages
+copying resource/hw5 -> /home/hungatec/rob499_ws/src/install/hw5/share/ament_index/resource_index/packages
+copying package.xml -> /home/hungatec/rob499_ws/src/install/hw5/share/hw5
+running install_egg_info
+Copying ../build/hw5/hw5.egg-info to /home/hungatec/rob499_ws/src/install/hw5/lib/python3.12/site-packages/hw5-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/hungatec/rob499_ws/src/build/hw5/install.log'
