@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/hw7_py/hw7_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/hw7_py/hw7_py.egg-info/dependency_links.txt
+writing entry points to ../../build/hw7_py/hw7_py.egg-info/entry_points.txt
+writing requirements to ../../build/hw7_py/hw7_py.egg-info/requires.txt
+writing top-level names to ../../build/hw7_py/hw7_py.egg-info/top_level.txt
+reading manifest file '../../build/hw7_py/hw7_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/hw7_py/hw7_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/hungatec/rob499_ws/install/hw7_py/share/hw7_py/config
+copying config/hw7_config.rviz -> /home/hungatec/rob499_ws/install/hw7_py/share/hw7_py/config
+running install_egg_info
+removing '/home/hungatec/rob499_ws/install/hw7_py/lib/python3.12/site-packages/hw7_py-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/hw7_py/hw7_py.egg-info to /home/hungatec/rob499_ws/install/hw7_py/lib/python3.12/site-packages/hw7_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing object_detector script to /home/hungatec/rob499_ws/install/hw7_py/lib/hw7_py
+writing list of installed files to '/home/hungatec/rob499_ws/build/hw7_py/install.log'

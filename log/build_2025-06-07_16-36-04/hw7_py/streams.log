@@ -1,0 +1,25 @@
+[1.834s] Invoking command in '/home/hungatec/rob499_ws/src/hw7_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/hw7_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/hw7_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw7_py build --build-base /home/hungatec/rob499_ws/build/hw7_py/build install --record /home/hungatec/rob499_ws/build/hw7_py/install.log --single-version-externally-managed install_data
+[3.009s] running egg_info
+[3.090s] writing ../../build/hw7_py/hw7_py.egg-info/PKG-INFO
+[3.095s] writing dependency_links to ../../build/hw7_py/hw7_py.egg-info/dependency_links.txt
+[3.097s] writing entry points to ../../build/hw7_py/hw7_py.egg-info/entry_points.txt
+[3.098s] writing requirements to ../../build/hw7_py/hw7_py.egg-info/requires.txt
+[3.100s] writing top-level names to ../../build/hw7_py/hw7_py.egg-info/top_level.txt
+[3.309s] reading manifest file '../../build/hw7_py/hw7_py.egg-info/SOURCES.txt'
+[3.310s] adding license file 'LICENSE'
+[3.312s] writing manifest file '../../build/hw7_py/hw7_py.egg-info/SOURCES.txt'
+[3.312s] running build
+[3.312s] running build_py
+[3.314s] copying hw7_py/object_detector.py -> /home/hungatec/rob499_ws/build/hw7_py/build/lib/hw7_py
+[3.315s] running install
+[3.329s] running install_lib
+[3.365s] copying /home/hungatec/rob499_ws/build/hw7_py/build/lib/hw7_py/object_detector.py -> /home/hungatec/rob499_ws/install/hw7_py/lib/python3.12/site-packages/hw7_py
+[3.366s] byte-compiling /home/hungatec/rob499_ws/install/hw7_py/lib/python3.12/site-packages/hw7_py/object_detector.py to object_detector.cpython-312.pyc
+[3.370s] running install_data
+[3.371s] running install_egg_info
+[3.407s] removing '/home/hungatec/rob499_ws/install/hw7_py/lib/python3.12/site-packages/hw7_py-0.0.0-py3.12.egg-info' (and everything under it)
+[3.408s] Copying ../../build/hw7_py/hw7_py.egg-info to /home/hungatec/rob499_ws/install/hw7_py/lib/python3.12/site-packages/hw7_py-0.0.0-py3.12.egg-info
+[3.411s] running install_scripts
+[3.612s] Installing object_detector script to /home/hungatec/rob499_ws/install/hw7_py/lib/hw7_py
+[3.614s] writing list of installed files to '/home/hungatec/rob499_ws/build/hw7_py/install.log'
+[3.673s] Invoked command in '/home/hungatec/rob499_ws/src/hw7_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hungatec/rob499_ws/build/hw7_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hungatec/rob499_ws/install/hw7_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw7_py build --build-base /home/hungatec/rob499_ws/build/hw7_py/build install --record /home/hungatec/rob499_ws/build/hw7_py/install.log --single-version-externally-managed install_data

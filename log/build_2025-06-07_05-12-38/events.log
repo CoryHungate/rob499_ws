@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.001981] (-) JobUnselected: {'identifier': 'hw2'}
+[0.002175] (-) JobUnselected: {'identifier': 'hw3'}
+[0.002415] (-) JobUnselected: {'identifier': 'hw4'}
+[0.004392] (-) JobUnselected: {'identifier': 'hw5'}
+[0.004439] (-) JobUnselected: {'identifier': 'hw6'}
+[0.004462] (-) JobUnselected: {'identifier': 'rob499_msgs'}
+[0.004481] (-) JobUnselected: {'identifier': 'rob499_project'}
+[0.004510] (hw7) JobQueued: {'identifier': 'hw7', 'dependencies': OrderedDict()}
+[0.007235] (hw7) JobStarted: {'identifier': 'hw7'}
+[0.091292] (hw7) JobProgress: {'identifier': 'hw7', 'progress': 'cmake'}
+[0.096364] (hw7) JobProgress: {'identifier': 'hw7', 'progress': 'build'}
+[0.096534] (hw7) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hungatec/rob499_ws/build/hw7', '--', '-j4', '-l4'], 'cwd': '/home/hungatec/rob499_ws/build/hw7', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2219,unix/Ubuntu24:/tmp/.ICE-unix/2219', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12cda340_e86d_40e9_bd56_9e96fe1bcc76', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8K7Z72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.195', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/hw7', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099822] (-) TimerEvent: {}
+[0.208915] (-) TimerEvent: {}
+[0.309694] (-) TimerEvent: {}
+[0.411133] (-) TimerEvent: {}
+[0.520331] (-) TimerEvent: {}
+[0.562870] (hw7) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/background_remover.dir/src/background_remover.cpp.o\x1b[0m\n'}
+[0.621110] (-) TimerEvent: {}
+[0.730441] (-) TimerEvent: {}
+[0.834496] (-) TimerEvent: {}
+[0.941606] (-) TimerEvent: {}
+[1.046156] (-) TimerEvent: {}
+[1.148669] (-) TimerEvent: {}
+[1.249962] (-) TimerEvent: {}
+[1.352579] (-) TimerEvent: {}
+[1.458300] (-) TimerEvent: {}
+[1.562871] (-) TimerEvent: {}
+[1.666742] (-) TimerEvent: {}
+[1.771184] (-) TimerEvent: {}
+[1.873686] (-) TimerEvent: {}
+[1.975352] (-) TimerEvent: {}
+[2.076497] (-) TimerEvent: {}
+[2.180183] (-) TimerEvent: {}
+[2.282616] (-) TimerEvent: {}
+[2.384944] (-) TimerEvent: {}
+[2.487451] (-) TimerEvent: {}
+[2.594159] (-) TimerEvent: {}
+[2.697637] (-) TimerEvent: {}
+[2.799124] (-) TimerEvent: {}
+[2.900228] (-) TimerEvent: {}
+[3.004929] (-) TimerEvent: {}
+[3.106275] (-) TimerEvent: {}
+[3.208320] (-) TimerEvent: {}
+[3.309908] (-) TimerEvent: {}
+[3.412498] (-) TimerEvent: {}
+[3.514420] (-) TimerEvent: {}
+[3.628276] (-) TimerEvent: {}
+[3.730949] (-) TimerEvent: {}
+[3.836365] (-) TimerEvent: {}
+[3.940703] (-) TimerEvent: {}
+[4.042025] (-) TimerEvent: {}
+[4.149171] (-) TimerEvent: {}
+[4.253038] (-) TimerEvent: {}
+[4.360117] (-) TimerEvent: {}
+[4.461946] (-) TimerEvent: {}
+[4.562893] (-) TimerEvent: {}
+[4.664076] (-) TimerEvent: {}
+[4.767294] (-) TimerEvent: {}
+[4.872828] (-) TimerEvent: {}
+[4.973918] (-) TimerEvent: {}
+[5.076144] (-) TimerEvent: {}
+[5.194989] (-) TimerEvent: {}
+[5.296460] (-) TimerEvent: {}
+[5.403038] (-) TimerEvent: {}
+[5.513026] (-) TimerEvent: {}
+[5.616222] (-) TimerEvent: {}
+[5.720051] (-) TimerEvent: {}
+[5.825139] (-) TimerEvent: {}
+[5.933901] (-) TimerEvent: {}
+[6.048423] (-) TimerEvent: {}
+[6.152736] (-) TimerEvent: {}
+[6.257022] (-) TimerEvent: {}
+[6.358379] (-) TimerEvent: {}
+[6.459859] (-) TimerEvent: {}
+[6.567505] (-) TimerEvent: {}
+[6.670116] (-) TimerEvent: {}
+[6.780922] (-) TimerEvent: {}
+[6.881707] (-) TimerEvent: {}
+[6.993221] (-) TimerEvent: {}
+[7.098873] (-) TimerEvent: {}
+[7.205157] (-) TimerEvent: {}
+[7.323250] (-) TimerEvent: {}
+[7.431624] (-) TimerEvent: {}
+[7.545197] (-) TimerEvent: {}
+[7.652386] (-) TimerEvent: {}
+[7.754395] (-) TimerEvent: {}
+[7.872815] (-) TimerEvent: {}
+[7.974499] (-) TimerEvent: {}
+[8.077145] (-) TimerEvent: {}
+[8.194197] (-) TimerEvent: {}
+[8.315053] (-) TimerEvent: {}
+[8.415611] (-) TimerEvent: {}
+[8.536183] (-) TimerEvent: {}
+[8.652368] (-) TimerEvent: {}
+[8.754547] (-) TimerEvent: {}
+[8.861945] (-) TimerEvent: {}
+[8.966004] (-) TimerEvent: {}
+[9.078580] (-) TimerEvent: {}
+[9.191664] (-) TimerEvent: {}
+[9.301572] (-) TimerEvent: {}
+[9.403033] (-) TimerEvent: {}
+[9.506337] (-) TimerEvent: {}
+[9.627070] (-) TimerEvent: {}
+[9.731695] (-) TimerEvent: {}
+[9.838125] (-) TimerEvent: {}
+[9.945730] (-) TimerEvent: {}
+[10.051600] (-) TimerEvent: {}
+[10.168316] (-) TimerEvent: {}
+[10.271530] (-) TimerEvent: {}
+[10.384325] (-) TimerEvent: {}
+[10.485948] (-) TimerEvent: {}
+[10.591318] (-) TimerEvent: {}
+[10.703994] (-) TimerEvent: {}
+[10.813248] (-) TimerEvent: {}
+[10.915860] (-) TimerEvent: {}
+[11.034244] (-) TimerEvent: {}
+[11.139595] (-) TimerEvent: {}
+[11.243710] (-) TimerEvent: {}
+[11.348132] (-) TimerEvent: {}
+[11.451029] (-) TimerEvent: {}
+[11.554453] (-) TimerEvent: {}
+[11.655953] (-) TimerEvent: {}
+[11.763990] (-) TimerEvent: {}
+[11.865595] (-) TimerEvent: {}
+[11.976838] (-) TimerEvent: {}
+[12.078372] (-) TimerEvent: {}
+[12.188362] (-) TimerEvent: {}
+[12.294302] (-) TimerEvent: {}
+[12.401865] (-) TimerEvent: {}
+[12.503120] (-) TimerEvent: {}
+[12.615596] (-) TimerEvent: {}
+[12.716447] (-) TimerEvent: {}
+[12.823661] (-) TimerEvent: {}
+[12.937048] (-) TimerEvent: {}
+[13.043492] (-) TimerEvent: {}
+[13.149061] (-) TimerEvent: {}
+[13.254335] (-) TimerEvent: {}
+[13.358531] (-) TimerEvent: {}
+[13.471259] (-) TimerEvent: {}
+[13.572575] (-) TimerEvent: {}
+[13.675140] (-) TimerEvent: {}
+[13.778602] (-) TimerEvent: {}
+[13.892412] (-) TimerEvent: {}
+[14.001193] (-) TimerEvent: {}
+[14.107710] (-) TimerEvent: {}
+[14.209432] (-) TimerEvent: {}
+[14.310169] (-) TimerEvent: {}
+[14.420620] (-) TimerEvent: {}
+[14.538014] (-) TimerEvent: {}
+[14.639857] (-) TimerEvent: {}
+[14.747665] (-) TimerEvent: {}
+[14.854115] (-) TimerEvent: {}
+[14.971342] (-) TimerEvent: {}
+[15.082088] (-) TimerEvent: {}
+[15.195251] (-) TimerEvent: {}
+[15.301107] (-) TimerEvent: {}
+[15.427729] (-) TimerEvent: {}
+[15.540494] (-) TimerEvent: {}
+[15.651539] (-) TimerEvent: {}
+[15.752512] (-) TimerEvent: {}
+[15.858272] (-) TimerEvent: {}
+[15.961329] (-) TimerEvent: {}
+[16.062623] (-) TimerEvent: {}
+[16.164868] (-) TimerEvent: {}
+[16.266158] (-) TimerEvent: {}
+[16.370950] (-) TimerEvent: {}
+[16.472332] (-) TimerEvent: {}
+[16.576182] (-) TimerEvent: {}
+[16.681121] (-) TimerEvent: {}
+[16.813859] (-) TimerEvent: {}
+[16.925829] (-) TimerEvent: {}
+[17.029539] (-) TimerEvent: {}
+[17.132771] (-) TimerEvent: {}
+[17.238344] (-) TimerEvent: {}
+[17.344289] (-) TimerEvent: {}
+[17.451063] (-) TimerEvent: {}
+[17.564031] (-) TimerEvent: {}
+[17.670504] (-) TimerEvent: {}
+[17.772057] (-) TimerEvent: {}
+[17.872639] (-) TimerEvent: {}
+[17.974577] (-) TimerEvent: {}
+[18.087154] (-) TimerEvent: {}
+[18.195508] (-) TimerEvent: {}
+[18.299978] (-) TimerEvent: {}
+[18.404951] (-) TimerEvent: {}
+[18.509878] (-) TimerEvent: {}
+[18.620442] (-) TimerEvent: {}
+[18.724358] (-) TimerEvent: {}
+[18.835000] (-) TimerEvent: {}
+[18.938230] (-) TimerEvent: {}
+[19.044156] (-) TimerEvent: {}
+[19.145940] (-) TimerEvent: {}
+[19.247697] (-) TimerEvent: {}
+[19.358901] (-) TimerEvent: {}
+[19.459900] (-) TimerEvent: {}
+[19.588308] (-) TimerEvent: {}
+[19.691208] (-) TimerEvent: {}
+[19.798998] (-) TimerEvent: {}
+[19.900550] (-) TimerEvent: {}
+[20.003067] (-) TimerEvent: {}
+[20.111224] (-) TimerEvent: {}
+[20.227161] (-) TimerEvent: {}
+[20.330915] (-) TimerEvent: {}
+[20.445478] (-) TimerEvent: {}
+[20.547997] (-) TimerEvent: {}
+[20.651205] (-) TimerEvent: {}
+[20.752873] (-) TimerEvent: {}
+[20.866805] (-) TimerEvent: {}
+[20.970570] (-) TimerEvent: {}
+[21.076944] (-) TimerEvent: {}
+[21.183349] (-) TimerEvent: {}
+[21.292030] (-) TimerEvent: {}
+[21.399950] (-) TimerEvent: {}
+[21.503330] (-) TimerEvent: {}
+[21.605880] (-) TimerEvent: {}
+[21.714005] (-) TimerEvent: {}
+[21.818695] (-) TimerEvent: {}
+[21.931309] (-) TimerEvent: {}
+[22.033941] (-) TimerEvent: {}
+[22.140931] (-) TimerEvent: {}
+[22.258930] (-) TimerEvent: {}
+[22.360041] (-) TimerEvent: {}
+[22.463954] (-) TimerEvent: {}
+[22.570311] (-) TimerEvent: {}
+[22.671458] (-) TimerEvent: {}
+[22.794332] (-) TimerEvent: {}
+[22.902668] (-) TimerEvent: {}
+[23.003937] (-) TimerEvent: {}
+[23.109134] (-) TimerEvent: {}
+[23.219620] (-) TimerEvent: {}
+[23.328947] (-) TimerEvent: {}
+[23.430505] (-) TimerEvent: {}
+[23.537903] (-) TimerEvent: {}
+[23.639031] (-) TimerEvent: {}
+[23.749018] (-) TimerEvent: {}
+[23.861125] (-) TimerEvent: {}
+[24.002465] (-) TimerEvent: {}
+[24.112119] (-) TimerEvent: {}
+[24.220933] (-) TimerEvent: {}
+[24.327502] (-) TimerEvent: {}
+[24.429237] (-) TimerEvent: {}
+[24.530092] (-) TimerEvent: {}
+[24.638564] (-) TimerEvent: {}
+[24.741642] (-) TimerEvent: {}
+[24.849858] (-) TimerEvent: {}
+[24.952883] (-) TimerEvent: {}
+[25.076127] (-) TimerEvent: {}
+[25.178844] (-) TimerEvent: {}
+[25.288908] (-) TimerEvent: {}
+[25.390307] (-) TimerEvent: {}
+[25.495662] (-) TimerEvent: {}
+[25.512485] (hw7) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable background_remover\x1b[0m\n'}
+[25.602627] (-) TimerEvent: {}
+[25.716544] (-) TimerEvent: {}
+[25.830179] (-) TimerEvent: {}
+[25.939492] (-) TimerEvent: {}
+[26.044960] (-) TimerEvent: {}
+[26.148375] (-) TimerEvent: {}
+[26.254289] (-) TimerEvent: {}
+[26.357278] (-) TimerEvent: {}
+[26.464055] (-) TimerEvent: {}
+[26.568007] (-) TimerEvent: {}
+[26.673043] (-) TimerEvent: {}
+[26.774612] (-) TimerEvent: {}
+[26.879450] (-) TimerEvent: {}
+[26.986441] (-) TimerEvent: {}
+[27.092755] (-) TimerEvent: {}
+[27.199042] (-) TimerEvent: {}
+[27.308292] (-) TimerEvent: {}
+[27.414222] (-) TimerEvent: {}
+[27.519267] (-) TimerEvent: {}
+[27.638579] (-) TimerEvent: {}
+[27.780078] (-) TimerEvent: {}
+[27.881175] (-) TimerEvent: {}
+[27.984688] (-) TimerEvent: {}
+[28.093620] (-) TimerEvent: {}
+[28.194915] (-) TimerEvent: {}
+[28.307014] (-) TimerEvent: {}
+[28.422098] (-) TimerEvent: {}
+[28.523128] (-) TimerEvent: {}
+[28.624173] (-) TimerEvent: {}
+[28.726709] (-) TimerEvent: {}
+[28.828878] (-) TimerEvent: {}
+[28.931049] (-) TimerEvent: {}
+[29.047385] (-) TimerEvent: {}
+[29.149355] (-) TimerEvent: {}
+[29.269586] (-) TimerEvent: {}
+[29.371040] (-) TimerEvent: {}
+[29.479095] (-) TimerEvent: {}
+[29.563175] (hw7) StdoutLine: {'line': b'[100%] Built target background_remover\n'}
+[29.579273] (-) TimerEvent: {}
+[29.601263] (hw7) CommandEnded: {'returncode': 0}
+[29.602662] (hw7) JobProgress: {'identifier': 'hw7', 'progress': 'install'}
+[29.621397] (hw7) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hungatec/rob499_ws/build/hw7'], 'cwd': '/home/hungatec/rob499_ws/build/hw7', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2219,unix/Ubuntu24:/tmp/.ICE-unix/2219', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12cda340_e86d_40e9_bd56_9e96fe1bcc76', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8K7Z72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.195', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/hw7', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[29.642607] (hw7) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.643142] (hw7) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/hw7/lib/hw7/background_remover\n'}
+[29.650299] (hw7) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw7/lib/hw7/background_remover" to ""\n'}
+[29.651306] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/include/hw7/include\n'}
+[29.651388] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/include/hw7/include/hw7\n'}
+[29.651457] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/package_run_dependencies/hw7\n'}
+[29.651522] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/parent_prefix_path/hw7\n'}
+[29.651585] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.sh\n'}
+[29.651662] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.dsv\n'}
+[29.651770] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.sh\n'}
+[29.651993] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.dsv\n'}
+[29.652347] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.bash\n'}
+[29.652440] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.sh\n'}
+[29.652523] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.zsh\n'}
+[29.653348] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.dsv\n'}
+[29.654130] (hw7) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.dsv\n'}
+[29.654265] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/packages/hw7\n'}
+[29.654356] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config.cmake\n'}
+[29.654421] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config-version.cmake\n'}
+[29.654485] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.xml\n'}
+[29.659902] (hw7) CommandEnded: {'returncode': 0}
+[29.679979] (-) TimerEvent: {}
+[29.726056] (hw7) JobEnded: {'identifier': 'hw7', 'rc': 0}
+[29.728104] (-) EventReactorShutdown: {}

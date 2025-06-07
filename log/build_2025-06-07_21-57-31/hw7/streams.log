@@ -1,0 +1,82 @@
+[0.053s] Invoking command in '/home/hungatec/rob499_ws/build/hw7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw7 -- -j4 -l4
+[0.165s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.055s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.149s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.188s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.468s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.477s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.697s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.854s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.955s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[2.073s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[2.073s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.074s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.074s]   cmake_policy command to set the policy and suppress this warning.
+[2.074s] 
+[2.074s]   CMake variable FLANN_ROOT is set to:
+[2.074s] 
+[2.074s]     /usr
+[2.079s] 
+[2.079s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.079s]   .cmake module might still use it.
+[2.079s] Call Stack (most recent call first):
+[2.079s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[2.079s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[2.079s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[2.079s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.080s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.080s]   /opt/ros/jazzy/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.080s]   /opt/ros/jazzy/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[2.080s]   CMakeLists.txt:19 (find_package)
+[2.080s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.080s] [0m
+[2.080s] -- Found flann version 1.9.2
+[3.296s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.311s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.315s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[4.503s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.514s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.749s] -- Found Qhull version 8.0.2
+[6.996s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.369s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[8.372s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.399s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[8.558s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.774s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.778s] -- Configured cppcheck include dirs: /home/hungatec/rob499_ws/src/hw7/include
+[8.778s] -- Configured cppcheck exclude dirs and/or files: 
+[8.779s] -- Added test 'lint_cmake' to check CMake code style
+[8.781s] -- Added test 'uncrustify' to check C / C++ code style
+[8.781s] -- Configured uncrustify additional arguments: 
+[8.783s] -- Added test 'xmllint' to check XML markup files
+[8.784s] -- Configuring done (8.6s)
+[9.037s] -- Generating done (0.2s)
+[9.059s] -- Build files have been written to: /home/hungatec/rob499_ws/build/hw7
+[9.287s] [ 25%] [32mBuilding CXX object CMakeFiles/table_remover.dir/src/table_remover.cpp.o[0m
+[9.329s] [ 75%] Built target background_remover
+[18.557s] [01m[K/home/hungatec/rob499_ws/src/hw7/src/table_remover.cpp:[m[K In member function ‘[01m[Kvoid TableRemover::[01;32m[Kcallback[m[K(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[18.558s] [01m[K/home/hungatec/rob499_ws/src/hw7/src/table_remover.cpp:100:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[18.558s]   100 |                         [01;31m[Ktf2[m[K::Vector3 normal(a, b, c);
+[18.558s]       |                         [01;31m[K^~~[m[K
+[18.558s] [01m[K/home/hungatec/rob499_ws/src/hw7/src/table_remover.cpp:101:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[18.558s]   101 |                         [01;31m[Ktf2[m[K::Vector3 up(0.0, 0.0, 1.0);
+[18.558s]       |                         [01;31m[K^~~[m[K
+[18.558s] [01m[K/home/hungatec/rob499_ws/src/hw7/src/table_remover.cpp:102:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[18.558s]   102 |                         [01;31m[Ktf2[m[K::Quaternion q;
+[18.558s]       |                         [01;31m[K^~~[m[K
+[18.569s] [01m[K/home/hungatec/rob499_ws/src/hw7/src/table_remover.cpp:103:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+[18.569s]   103 |                         [01;31m[Kq[m[K.setRotation(up.cross(normal), acos(up.dot(normal)));
+[18.569s]       |                         [01;31m[K^[m[K
+[18.580s] [01m[K/home/hungatec/rob499_ws/src/hw7/src/table_remover.cpp:103:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kup[m[K’ was not declared in this scope; did you mean ‘[01m[Kdup[m[K’?
+[18.580s]   103 |                         q.setRotation([01;31m[Kup[m[K.cross(normal), acos(up.dot(normal)));
+[18.581s]       |                                       [01;31m[K^~[m[K
+[18.581s]       |                                       [32m[Kdup[m[K
+[18.594s] [01m[K/home/hungatec/rob499_ws/src/hw7/src/table_remover.cpp:103:48:[m[K [01;31m[Kerror: [m[K‘[01m[Knormal[m[K’ was not declared in this scope
+[18.598s]   103 |                         q.setRotation(up.cross([01;31m[Knormal[m[K), acos(up.dot(normal)));
+[18.598s]       |                                                [01;31m[K^~~~~~[m[K
+[23.146s] gmake[2]: *** [CMakeFiles/table_remover.dir/build.make:76: CMakeFiles/table_remover.dir/src/table_remover.cpp.o] Error 1
+[23.146s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/table_remover.dir/all] Error 2
+[23.148s] gmake: *** [Makefile:146: all] Error 2
+[23.154s] Invoked command in '/home/hungatec/rob499_ws/build/hw7' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw7 -- -j4 -l4

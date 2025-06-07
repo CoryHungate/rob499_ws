@@ -1,0 +1,27 @@
+[0.072s] Invoking command in '/home/hungatec/rob499_ws/build/hw7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw7 -- -j4 -l4
+[0.497s] [ 50%] [32mBuilding CXX object CMakeFiles/background_remover.dir/src/background_remover.cpp.o[0m
+[79.904s] [100%] [32m[1mLinking CXX executable background_remover[0m
+[89.073s] [100%] Built target background_remover
+[89.249s] Invoked command in '/home/hungatec/rob499_ws/build/hw7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw7 -- -j4 -l4
+[89.364s] Invoking command in '/home/hungatec/rob499_ws/build/hw7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/hw7
+[89.413s] -- Install configuration: ""
+[89.424s] -- Installing: /home/hungatec/rob499_ws/install/hw7/lib/hw7/background_remover
+[89.452s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw7/lib/hw7/background_remover" to ""
+[89.452s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/include/hw7/include
+[89.461s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/include/hw7/include/hw7
+[89.464s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/package_run_dependencies/hw7
+[89.465s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/parent_prefix_path/hw7
+[89.465s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.sh
+[89.465s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.dsv
+[89.465s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.sh
+[89.465s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.dsv
+[89.481s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.bash
+[89.483s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.sh
+[89.483s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.zsh
+[89.484s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.dsv
+[89.516s] -- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.dsv
+[89.517s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/packages/hw7
+[89.517s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config.cmake
+[89.518s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config-version.cmake
+[89.524s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.xml
+[89.524s] Invoked command in '/home/hungatec/rob499_ws/build/hw7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/hw7

@@ -1,0 +1,85 @@
+[0.036s] Invoking command in '/home/hungatec/rob499_ws/build/hw7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw7 -- -j4 -l4
+[0.091s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.444s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.482s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.496s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.515s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.614s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.622s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.802s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.886s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[0.970s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.970s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.970s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.970s]   cmake_policy command to set the policy and suppress this warning.
+[0.970s] 
+[0.970s]   CMake variable FLANN_ROOT is set to:
+[0.970s] 
+[0.970s]     /usr
+[0.970s] 
+[0.970s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.970s]   .cmake module might still use it.
+[0.970s] Call Stack (most recent call first):
+[0.972s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.972s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.972s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.972s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.972s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.972s]   /opt/ros/jazzy/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.972s]   /opt/ros/jazzy/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[0.972s]   CMakeLists.txt:19 (find_package)
+[0.972s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.972s] [0m
+[0.977s] -- Found flann version 1.9.2
+[1.596s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.610s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.613s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.267s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.282s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.865s] -- Found Qhull version 8.0.2
+[3.508s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.263s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.265s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.270s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[4.337s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.480s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.482s] -- Configured cppcheck include dirs: /home/hungatec/rob499_ws/src/hw7/include
+[4.482s] -- Configured cppcheck exclude dirs and/or files: 
+[4.487s] -- Added test 'lint_cmake' to check CMake code style
+[4.487s] -- Added test 'uncrustify' to check C / C++ code style
+[4.487s] -- Configured uncrustify additional arguments: 
+[4.488s] -- Added test 'xmllint' to check XML markup files
+[4.488s] -- Configuring done (4.4s)
+[4.643s] -- Generating done (0.1s)
+[4.664s] -- Build files have been written to: /home/hungatec/rob499_ws/build/hw7
+[4.789s] [ 50%] Built target background_remover
+[4.793s] [ 75%] [32mBuilding CXX object CMakeFiles/table_remover.dir/src/table_remover.cpp.o[0m
+[23.192s] [100%] [32m[1mLinking CXX executable table_remover[0m
+[26.089s] [100%] Built target table_remover
+[26.110s] Invoked command in '/home/hungatec/rob499_ws/build/hw7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hungatec/rob499_ws/build/hw7 -- -j4 -l4
+[26.127s] Invoking command in '/home/hungatec/rob499_ws/build/hw7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/hw7
+[26.136s] -- Install configuration: ""
+[26.138s] -- Installing: /home/hungatec/rob499_ws/install/hw7/lib/hw7/background_remover
+[26.168s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw7/lib/hw7/background_remover" to ""
+[26.168s] -- Installing: /home/hungatec/rob499_ws/install/hw7/lib/hw7/table_remover
+[26.196s] -- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw7/lib/hw7/table_remover" to ""
+[26.196s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/include/hw7/include
+[26.196s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/include/hw7/include/hw7
+[26.197s] -- Installing: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/package_run_dependencies/hw7
+[26.197s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/parent_prefix_path/hw7
+[26.197s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.sh
+[26.197s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.dsv
+[26.198s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.sh
+[26.198s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.dsv
+[26.198s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.bash
+[26.198s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.sh
+[26.198s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.zsh
+[26.198s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.dsv
+[26.199s] -- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.dsv
+[26.199s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/packages/hw7
+[26.199s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config.cmake
+[26.199s] -- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config-version.cmake
+[26.199s] -- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.xml
+[26.205s] Invoked command in '/home/hungatec/rob499_ws/build/hw7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hungatec/rob499_ws/build/hw7

@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001407] (-) JobUnselected: {'identifier': 'hw2'}
+[0.001892] (-) JobUnselected: {'identifier': 'hw3'}
+[0.002699] (-) JobUnselected: {'identifier': 'hw4'}
+[0.002903] (-) JobUnselected: {'identifier': 'hw5'}
+[0.003071] (-) JobUnselected: {'identifier': 'hw6'}
+[0.003111] (-) JobUnselected: {'identifier': 'rob499_msgs'}
+[0.003125] (-) JobUnselected: {'identifier': 'rob499_project'}
+[0.003143] (hw7) JobQueued: {'identifier': 'hw7', 'dependencies': OrderedDict()}
+[0.003172] (hw7) JobStarted: {'identifier': 'hw7'}
+[0.043086] (hw7) JobProgress: {'identifier': 'hw7', 'progress': 'cmake'}
+[0.045111] (hw7) Command: {'cmd': ['/usr/bin/cmake', '/home/hungatec/rob499_ws/src/hw7', '-DCMAKE_INSTALL_PREFIX=/home/hungatec/rob499_ws/install/hw7'], 'cwd': '/home/hungatec/rob499_ws/build/hw7', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs/lib:/home/hungatec/rob499_ws/install/rob499_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hungatec/rob499_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2219,unix/Ubuntu24:/tmp/.ICE-unix/2219', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ba260603_bea4_4179_8242_91c0a8b8da56', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8K7Z72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.195', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_stage:/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/rob499_project:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/hw7', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hungatec/rob499_ws/install/rob599_stage/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_more/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob599_basic/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob499_project/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/rob499_msgs/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw5/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw4/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw3/lib/python3.12/site-packages:/home/hungatec/rob499_ws/install/hw2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hungatec/rob499_ws/install/rob599_msgs:/home/hungatec/rob499_ws/install/rob599_basic_cpp:/home/hungatec/rob499_ws/install/rob499_msgs:/home/hungatec/rob499_ws/install/hw6:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hungatec/rob499_ws/install/rob599_stage:/home/hungatec/rob499_ws/install/rob599_more:/home/hungatec/rob499_ws/install/rob599_basic:/home/hungatec/rob499_ws/install/rob499_project:/home/hungatec/rob499_ws/install/hw5:/home/hungatec/rob499_ws/install/hw4:/home/hungatec/rob499_ws/install/hw3:/home/hungatec/rob499_ws/install/hw2:/opt/ros/jazzy'}), 'shell': False}
+[0.099683] (-) TimerEvent: {}
+[0.202862] (-) TimerEvent: {}
+[0.304274] (-) TimerEvent: {}
+[0.405905] (-) TimerEvent: {}
+[0.509490] (-) TimerEvent: {}
+[0.620508] (-) TimerEvent: {}
+[0.724731] (-) TimerEvent: {}
+[0.778066] (hw7) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.825481] (-) TimerEvent: {}
+[0.927742] (-) TimerEvent: {}
+[1.029164] (-) TimerEvent: {}
+[1.096094] (hw7) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.130092] (-) TimerEvent: {}
+[1.161192] (hw7) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.253136] (-) TimerEvent: {}
+[1.353731] (-) TimerEvent: {}
+[1.458676] (-) TimerEvent: {}
+[1.492028] (hw7) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.513733] (hw7) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.514219] (hw7) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.515725] (hw7) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.559217] (-) TimerEvent: {}
+[1.561185] (hw7) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.663556] (-) TimerEvent: {}
+[1.765558] (-) TimerEvent: {}
+[1.815250] (hw7) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.836894] (hw7) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.837982] (hw7) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.839495] (hw7) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.868193] (-) TimerEvent: {}
+[1.883537] (hw7) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.969698] (-) TimerEvent: {}
+[2.072549] (-) TimerEvent: {}
+[2.181336] (-) TimerEvent: {}
+[2.199653] (hw7) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.282361] (-) TimerEvent: {}
+[2.385282] (-) TimerEvent: {}
+[2.490406] (-) TimerEvent: {}
+[2.495084] (hw7) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.608235] (-) TimerEvent: {}
+[2.701611] (hw7) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.714262] (-) TimerEvent: {}
+[2.747353] (hw7) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.806199] (hw7) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.816817] (-) TimerEvent: {}
+[2.862211] (hw7) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.917415] (-) TimerEvent: {}
+[3.019218] (-) TimerEvent: {}
+[3.092430] (hw7) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.102971] (hw7) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.121451] (-) TimerEvent: {}
+[3.222384] (-) TimerEvent: {}
+[3.327060] (-) TimerEvent: {}
+[3.363086] (hw7) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.400368] (hw7) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.428165] (-) TimerEvent: {}
+[3.439583] (hw7) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.529348] (-) TimerEvent: {}
+[3.631577] (-) TimerEvent: {}
+[3.659475] (hw7) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[3.738475] (-) TimerEvent: {}
+[3.832285] (hw7) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.833055] (hw7) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[3.833202] (hw7) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.833276] (hw7) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[3.833340] (hw7) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.833403] (hw7) StderrLine: {'line': b'\n'}
+[3.833466] (hw7) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[3.833529] (hw7) StderrLine: {'line': b'  of the following names:\n'}
+[3.833592] (hw7) StderrLine: {'line': b'\n'}
+[3.833652] (hw7) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[3.833714] (hw7) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[3.833777] (hw7) StderrLine: {'line': b'\n'}
+[3.833838] (hw7) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[3.833900] (hw7) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[3.833964] (hw7) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[3.834025] (hw7) StderrLine: {'line': b'  been installed.\n'}
+[3.834087] (hw7) StderrLine: {'line': b'\n'}
+[3.834158] (hw7) StderrLine: {'line': b'\x1b[0m\n'}
+[3.839587] (-) TimerEvent: {}
+[3.858274] (hw7) CommandEnded: {'returncode': 1}
+[3.922207] (hw7) JobEnded: {'identifier': 'hw7', 'rc': 1}
+[3.933539] (-) EventReactorShutdown: {}

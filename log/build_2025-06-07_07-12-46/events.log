@@ -1,0 +1,428 @@
+[0.000000] (-) TimerEvent: {}
+[0.000426] (-) JobUnselected: {'identifier': 'hw2'}
+[0.000473] (-) JobUnselected: {'identifier': 'hw3'}
+[0.000496] (-) JobUnselected: {'identifier': 'hw4'}
+[0.000509] (-) JobUnselected: {'identifier': 'hw5'}
+[0.000533] (-) JobUnselected: {'identifier': 'hw6'}
+[0.000564] (-) JobUnselected: {'identifier': 'hw7_py'}
+[0.000577] (-) JobUnselected: {'identifier': 'rob499_msgs'}
+[0.000588] (-) JobUnselected: {'identifier': 'rob499_project'}
+[0.000602] (hw7) JobQueued: {'identifier': 'hw7', 'dependencies': OrderedDict()}
+[0.005205] (hw7) JobStarted: {'identifier': 'hw7'}
+[0.035556] (hw7) JobProgress: {'identifier': 'hw7', 'progress': 'cmake'}
+[0.040075] (hw7) JobProgress: {'identifier': 'hw7', 'progress': 'build'}
+[0.040387] (hw7) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hungatec/rob499_ws/build/hw7', '--', '-j4', '-l4'], 'cwd': '/home/hungatec/rob499_ws/build/hw7', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'OLDPWD': '/home/hungatec/rob499_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2270', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2224,unix/Ubuntu24:/tmp/.ICE-unix/2224', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0cf3d30b_19ac_4caa_a216_b0646b556dd5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BCW472', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/hw7', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.115592] (-) TimerEvent: {}
+[0.227894] (-) TimerEvent: {}
+[0.274741] (hw7) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.328644] (-) TimerEvent: {}
+[0.431065] (-) TimerEvent: {}
+[0.532862] (-) TimerEvent: {}
+[0.634856] (-) TimerEvent: {}
+[0.741523] (-) TimerEvent: {}
+[0.743770] (hw7) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.847813] (-) TimerEvent: {}
+[0.887490] (hw7) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.909699] (hw7) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.944479] (hw7) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.950259] (-) TimerEvent: {}
+[0.987757] (hw7) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.056712] (-) TimerEvent: {}
+[1.147750] (hw7) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.155688] (hw7) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.157662] (-) TimerEvent: {}
+[1.259776] (-) TimerEvent: {}
+[1.317105] (hw7) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.361892] (-) TimerEvent: {}
+[1.458024] (hw7) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.462884] (-) TimerEvent: {}
+[1.571719] (hw7) StdoutLine: {'line': b'-- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)\n'}
+[1.571930] (-) TimerEvent: {}
+[1.675533] (-) TimerEvent: {}
+[1.728822] (hw7) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[1.729172] (hw7) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[1.729256] (hw7) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[1.729321] (hw7) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.729384] (hw7) StderrLine: {'line': b'\n'}
+[1.729450] (hw7) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[1.729517] (hw7) StderrLine: {'line': b'\n'}
+[1.729623] (hw7) StderrLine: {'line': b'    /usr\n'}
+[1.729933] (hw7) StderrLine: {'line': b'\n'}
+[1.730003] (hw7) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[1.730064] (hw7) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[1.730139] (hw7) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.730202] (hw7) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[1.730262] (hw7) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[1.730322] (hw7) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[1.730381] (hw7) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.730440] (hw7) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[1.730500] (hw7) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.730560] (hw7) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)\n'}
+[1.730618] (hw7) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[1.730678] (hw7) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.730738] (hw7) StderrLine: {'line': b'\x1b[0m\n'}
+[1.736538] (hw7) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.809748] (-) TimerEvent: {}
+[1.912257] (-) TimerEvent: {}
+[2.034175] (-) TimerEvent: {}
+[2.135220] (-) TimerEvent: {}
+[2.242424] (-) TimerEvent: {}
+[2.352897] (-) TimerEvent: {}
+[2.492890] (-) TimerEvent: {}
+[2.603515] (-) TimerEvent: {}
+[2.707522] (-) TimerEvent: {}
+[2.809549] (-) TimerEvent: {}
+[2.897224] (hw7) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.909763] (hw7) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.910063] (-) TimerEvent: {}
+[2.916629] (hw7) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[3.013969] (-) TimerEvent: {}
+[3.120401] (-) TimerEvent: {}
+[3.221568] (-) TimerEvent: {}
+[3.325650] (-) TimerEvent: {}
+[3.428206] (-) TimerEvent: {}
+[3.528974] (-) TimerEvent: {}
+[3.538731] (hw7) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.556304] (hw7) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.631032] (-) TimerEvent: {}
+[3.732463] (-) TimerEvent: {}
+[3.835964] (-) TimerEvent: {}
+[3.939685] (-) TimerEvent: {}
+[4.070836] (-) TimerEvent: {}
+[4.124340] (hw7) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[4.171469] (-) TimerEvent: {}
+[4.272191] (-) TimerEvent: {}
+[4.378685] (-) TimerEvent: {}
+[4.483013] (-) TimerEvent: {}
+[4.584836] (-) TimerEvent: {}
+[4.695545] (-) TimerEvent: {}
+[4.704070] (hw7) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.795938] (-) TimerEvent: {}
+[4.896527] (-) TimerEvent: {}
+[4.999696] (-) TimerEvent: {}
+[5.100437] (-) TimerEvent: {}
+[5.202152] (-) TimerEvent: {}
+[5.303004] (-) TimerEvent: {}
+[5.407020] (-) TimerEvent: {}
+[5.515437] (-) TimerEvent: {}
+[5.578431] (hw7) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[5.581472] (hw7) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.616524] (-) TimerEvent: {}
+[5.619429] (hw7) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.725193] (-) TimerEvent: {}
+[5.803191] (hw7) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.804544] (hw7) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/hungatec/rob499_ws/src/hw7/include\n'}
+[5.805407] (hw7) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.807419] (hw7) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.810338] (hw7) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.810859] (hw7) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.812167] (hw7) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.820889] (hw7) StdoutLine: {'line': b'-- Configuring done (5.6s)\n'}
+[5.827434] (-) TimerEvent: {}
+[5.930696] (-) TimerEvent: {}
+[6.032485] (-) TimerEvent: {}
+[6.100196] (hw7) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[6.123685] (hw7) StdoutLine: {'line': b'-- Build files have been written to: /home/hungatec/rob499_ws/build/hw7\n'}
+[6.140709] (-) TimerEvent: {}
+[6.212813] (hw7) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/table_remover.dir/src/table_remover.cpp.o\x1b[0m\n'}
+[6.245081] (hw7) StdoutLine: {'line': b'[ 75%] Built target background_remover\n'}
+[6.245298] (-) TimerEvent: {}
+[6.364146] (-) TimerEvent: {}
+[6.472087] (-) TimerEvent: {}
+[6.580848] (-) TimerEvent: {}
+[6.682133] (-) TimerEvent: {}
+[6.783696] (-) TimerEvent: {}
+[6.942782] (-) TimerEvent: {}
+[7.054809] (-) TimerEvent: {}
+[7.161010] (-) TimerEvent: {}
+[7.264154] (-) TimerEvent: {}
+[7.366690] (-) TimerEvent: {}
+[7.541515] (-) TimerEvent: {}
+[7.651948] (-) TimerEvent: {}
+[7.787668] (-) TimerEvent: {}
+[7.994443] (-) TimerEvent: {}
+[8.125835] (-) TimerEvent: {}
+[8.249590] (-) TimerEvent: {}
+[8.413625] (-) TimerEvent: {}
+[8.579083] (-) TimerEvent: {}
+[8.761031] (-) TimerEvent: {}
+[8.907741] (-) TimerEvent: {}
+[9.010683] (-) TimerEvent: {}
+[9.151309] (-) TimerEvent: {}
+[9.306499] (-) TimerEvent: {}
+[9.440071] (-) TimerEvent: {}
+[9.547644] (-) TimerEvent: {}
+[9.806665] (-) TimerEvent: {}
+[9.974749] (-) TimerEvent: {}
+[10.079246] (-) TimerEvent: {}
+[10.180126] (-) TimerEvent: {}
+[10.307095] (-) TimerEvent: {}
+[10.410012] (-) TimerEvent: {}
+[10.557690] (-) TimerEvent: {}
+[10.662439] (-) TimerEvent: {}
+[10.814807] (-) TimerEvent: {}
+[10.960409] (-) TimerEvent: {}
+[11.168657] (-) TimerEvent: {}
+[11.320906] (-) TimerEvent: {}
+[11.443208] (-) TimerEvent: {}
+[11.566689] (-) TimerEvent: {}
+[11.813127] (-) TimerEvent: {}
+[12.017925] (-) TimerEvent: {}
+[12.122353] (-) TimerEvent: {}
+[12.227431] (-) TimerEvent: {}
+[12.331487] (-) TimerEvent: {}
+[12.487017] (-) TimerEvent: {}
+[12.593665] (-) TimerEvent: {}
+[12.698983] (-) TimerEvent: {}
+[12.800067] (-) TimerEvent: {}
+[12.901597] (-) TimerEvent: {}
+[13.004998] (-) TimerEvent: {}
+[13.106614] (-) TimerEvent: {}
+[13.207763] (-) TimerEvent: {}
+[13.322107] (-) TimerEvent: {}
+[13.429686] (-) TimerEvent: {}
+[13.532440] (-) TimerEvent: {}
+[13.635450] (-) TimerEvent: {}
+[13.738719] (-) TimerEvent: {}
+[13.841429] (-) TimerEvent: {}
+[13.943974] (-) TimerEvent: {}
+[14.048781] (-) TimerEvent: {}
+[14.149734] (-) TimerEvent: {}
+[14.255146] (-) TimerEvent: {}
+[14.359908] (-) TimerEvent: {}
+[14.463524] (-) TimerEvent: {}
+[14.616107] (-) TimerEvent: {}
+[14.740764] (-) TimerEvent: {}
+[14.843162] (-) TimerEvent: {}
+[14.951897] (-) TimerEvent: {}
+[15.052570] (-) TimerEvent: {}
+[15.154952] (-) TimerEvent: {}
+[15.257198] (-) TimerEvent: {}
+[15.360857] (-) TimerEvent: {}
+[15.473379] (-) TimerEvent: {}
+[15.575502] (-) TimerEvent: {}
+[15.684498] (-) TimerEvent: {}
+[15.787875] (-) TimerEvent: {}
+[15.889835] (-) TimerEvent: {}
+[15.998251] (-) TimerEvent: {}
+[16.113368] (-) TimerEvent: {}
+[16.329840] (-) TimerEvent: {}
+[16.463221] (-) TimerEvent: {}
+[16.621995] (-) TimerEvent: {}
+[16.766013] (-) TimerEvent: {}
+[16.871898] (-) TimerEvent: {}
+[16.987828] (-) TimerEvent: {}
+[17.098289] (-) TimerEvent: {}
+[17.291488] (-) TimerEvent: {}
+[17.392946] (-) TimerEvent: {}
+[17.495298] (-) TimerEvent: {}
+[17.630020] (-) TimerEvent: {}
+[17.829743] (-) TimerEvent: {}
+[17.977992] (-) TimerEvent: {}
+[18.128231] (-) TimerEvent: {}
+[18.232284] (-) TimerEvent: {}
+[18.334228] (-) TimerEvent: {}
+[18.457047] (-) TimerEvent: {}
+[18.713000] (-) TimerEvent: {}
+[18.817817] (-) TimerEvent: {}
+[18.971942] (-) TimerEvent: {}
+[19.078732] (-) TimerEvent: {}
+[19.180731] (-) TimerEvent: {}
+[19.302157] (-) TimerEvent: {}
+[19.403037] (-) TimerEvent: {}
+[19.520462] (-) TimerEvent: {}
+[19.621752] (-) TimerEvent: {}
+[19.724972] (-) TimerEvent: {}
+[19.825929] (-) TimerEvent: {}
+[19.926530] (-) TimerEvent: {}
+[20.040678] (-) TimerEvent: {}
+[20.158850] (-) TimerEvent: {}
+[20.276073] (-) TimerEvent: {}
+[20.383029] (-) TimerEvent: {}
+[20.516828] (-) TimerEvent: {}
+[20.621560] (-) TimerEvent: {}
+[20.776855] (-) TimerEvent: {}
+[20.885180] (-) TimerEvent: {}
+[20.992957] (-) TimerEvent: {}
+[21.109630] (-) TimerEvent: {}
+[21.261903] (-) TimerEvent: {}
+[21.391305] (-) TimerEvent: {}
+[21.500852] (-) TimerEvent: {}
+[21.755093] (-) TimerEvent: {}
+[21.873203] (-) TimerEvent: {}
+[21.981908] (-) TimerEvent: {}
+[22.092681] (-) TimerEvent: {}
+[22.193650] (-) TimerEvent: {}
+[22.294803] (-) TimerEvent: {}
+[22.397057] (-) TimerEvent: {}
+[22.502811] (-) TimerEvent: {}
+[22.606370] (-) TimerEvent: {}
+[22.712811] (-) TimerEvent: {}
+[22.816515] (-) TimerEvent: {}
+[22.918507] (-) TimerEvent: {}
+[23.021555] (-) TimerEvent: {}
+[23.124655] (-) TimerEvent: {}
+[23.235968] (-) TimerEvent: {}
+[23.349792] (-) TimerEvent: {}
+[23.454628] (-) TimerEvent: {}
+[23.556369] (-) TimerEvent: {}
+[23.659635] (-) TimerEvent: {}
+[23.767177] (-) TimerEvent: {}
+[23.869506] (-) TimerEvent: {}
+[23.971449] (-) TimerEvent: {}
+[24.077758] (-) TimerEvent: {}
+[24.180113] (-) TimerEvent: {}
+[24.286994] (-) TimerEvent: {}
+[24.397086] (-) TimerEvent: {}
+[24.498621] (-) TimerEvent: {}
+[24.601676] (-) TimerEvent: {}
+[24.703659] (-) TimerEvent: {}
+[24.812945] (-) TimerEvent: {}
+[24.917447] (-) TimerEvent: {}
+[25.025182] (-) TimerEvent: {}
+[25.149686] (-) TimerEvent: {}
+[25.257799] (-) TimerEvent: {}
+[25.369022] (-) TimerEvent: {}
+[25.471443] (-) TimerEvent: {}
+[25.582622] (-) TimerEvent: {}
+[25.713056] (-) TimerEvent: {}
+[25.816075] (-) TimerEvent: {}
+[25.943920] (-) TimerEvent: {}
+[26.045264] (-) TimerEvent: {}
+[26.147683] (-) TimerEvent: {}
+[26.248661] (-) TimerEvent: {}
+[26.409536] (-) TimerEvent: {}
+[26.519876] (-) TimerEvent: {}
+[26.654820] (-) TimerEvent: {}
+[26.756098] (-) TimerEvent: {}
+[26.859093] (-) TimerEvent: {}
+[26.965186] (-) TimerEvent: {}
+[27.069867] (-) TimerEvent: {}
+[27.184656] (-) TimerEvent: {}
+[27.295875] (-) TimerEvent: {}
+[27.403757] (-) TimerEvent: {}
+[27.507521] (-) TimerEvent: {}
+[27.608695] (-) TimerEvent: {}
+[27.743871] (-) TimerEvent: {}
+[27.850931] (-) TimerEvent: {}
+[27.959303] (-) TimerEvent: {}
+[28.111203] (-) TimerEvent: {}
+[28.222711] (-) TimerEvent: {}
+[28.325119] (-) TimerEvent: {}
+[28.441551] (-) TimerEvent: {}
+[28.544179] (-) TimerEvent: {}
+[28.647731] (-) TimerEvent: {}
+[28.982153] (-) TimerEvent: {}
+[29.089308] (-) TimerEvent: {}
+[29.210565] (-) TimerEvent: {}
+[29.431732] (-) TimerEvent: {}
+[29.538276] (-) TimerEvent: {}
+[29.643089] (-) TimerEvent: {}
+[29.779061] (-) TimerEvent: {}
+[29.881031] (-) TimerEvent: {}
+[29.992269] (-) TimerEvent: {}
+[30.106835] (-) TimerEvent: {}
+[30.207246] (-) TimerEvent: {}
+[30.307987] (-) TimerEvent: {}
+[30.409787] (-) TimerEvent: {}
+[30.534227] (-) TimerEvent: {}
+[30.642219] (-) TimerEvent: {}
+[30.742660] (-) TimerEvent: {}
+[30.873012] (-) TimerEvent: {}
+[31.013856] (-) TimerEvent: {}
+[31.116586] (-) TimerEvent: {}
+[31.219175] (-) TimerEvent: {}
+[31.322629] (-) TimerEvent: {}
+[31.423453] (-) TimerEvent: {}
+[31.524632] (-) TimerEvent: {}
+[31.626857] (-) TimerEvent: {}
+[31.729876] (-) TimerEvent: {}
+[31.831773] (-) TimerEvent: {}
+[31.933281] (-) TimerEvent: {}
+[32.035173] (-) TimerEvent: {}
+[32.138589] (-) TimerEvent: {}
+[32.247341] (-) TimerEvent: {}
+[32.352153] (-) TimerEvent: {}
+[32.453512] (-) TimerEvent: {}
+[32.454874] (hw7) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable table_remover\x1b[0m\n'}
+[32.553921] (-) TimerEvent: {}
+[32.654535] (-) TimerEvent: {}
+[32.755917] (-) TimerEvent: {}
+[32.857091] (-) TimerEvent: {}
+[32.961980] (-) TimerEvent: {}
+[33.064438] (-) TimerEvent: {}
+[33.165617] (-) TimerEvent: {}
+[33.269081] (-) TimerEvent: {}
+[33.380357] (-) TimerEvent: {}
+[33.482089] (-) TimerEvent: {}
+[33.587532] (-) TimerEvent: {}
+[33.690926] (-) TimerEvent: {}
+[33.793231] (-) TimerEvent: {}
+[33.903008] (-) TimerEvent: {}
+[34.004839] (-) TimerEvent: {}
+[34.114753] (-) TimerEvent: {}
+[34.216996] (-) TimerEvent: {}
+[34.321388] (-) TimerEvent: {}
+[34.422895] (-) TimerEvent: {}
+[34.526966] (-) TimerEvent: {}
+[34.634090] (-) TimerEvent: {}
+[34.736862] (-) TimerEvent: {}
+[34.844562] (-) TimerEvent: {}
+[34.945949] (-) TimerEvent: {}
+[35.059598] (-) TimerEvent: {}
+[35.161952] (-) TimerEvent: {}
+[35.263566] (-) TimerEvent: {}
+[35.365570] (-) TimerEvent: {}
+[35.467819] (-) TimerEvent: {}
+[35.597832] (-) TimerEvent: {}
+[35.699256] (-) TimerEvent: {}
+[35.803585] (-) TimerEvent: {}
+[35.908541] (-) TimerEvent: {}
+[36.012765] (-) TimerEvent: {}
+[36.118460] (-) TimerEvent: {}
+[36.223558] (-) TimerEvent: {}
+[36.324759] (-) TimerEvent: {}
+[36.426569] (-) TimerEvent: {}
+[36.534804] (-) TimerEvent: {}
+[36.650755] (-) TimerEvent: {}
+[36.762620] (-) TimerEvent: {}
+[36.863542] (-) TimerEvent: {}
+[36.975503] (-) TimerEvent: {}
+[37.083239] (-) TimerEvent: {}
+[37.204405] (-) TimerEvent: {}
+[37.308694] (-) TimerEvent: {}
+[37.413629] (-) TimerEvent: {}
+[37.517095] (-) TimerEvent: {}
+[37.624532] (-) TimerEvent: {}
+[37.726520] (-) TimerEvent: {}
+[37.830204] (-) TimerEvent: {}
+[37.932401] (-) TimerEvent: {}
+[37.983023] (hw7) StdoutLine: {'line': b'[100%] Built target table_remover\n'}
+[38.005998] (hw7) CommandEnded: {'returncode': 0}
+[38.007054] (hw7) JobProgress: {'identifier': 'hw7', 'progress': 'install'}
+[38.020868] (hw7) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hungatec/rob499_ws/build/hw7'], 'cwd': '/home/hungatec/rob499_ws/build/hw7', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hungatec', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hungatec', 'OLDPWD': '/home/hungatec/rob499_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2270', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hungatec', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hungatec', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/2224,unix/Ubuntu24:/tmp/.ICE-unix/2224', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0cf3d30b_19ac_4caa_a216_b0646b556dd5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BCW472', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hungatec/rob499_ws/build/hw7', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[38.033137] (hw7) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.033581] (-) TimerEvent: {}
+[38.033907] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/lib/hw7/background_remover\n'}
+[38.034156] (hw7) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/hw7/lib/hw7/table_remover\n'}
+[38.042107] (hw7) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw7/lib/hw7/table_remover" to ""\n'}
+[38.042460] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/include/hw7/include\n'}
+[38.042869] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/include/hw7/include/hw7\n'}
+[38.043560] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/package_run_dependencies/hw7\n'}
+[38.043666] (hw7) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/parent_prefix_path/hw7\n'}
+[38.044100] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.sh\n'}
+[38.044492] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.dsv\n'}
+[38.044734] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.sh\n'}
+[38.044807] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.dsv\n'}
+[38.044873] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.bash\n'}
+[38.045587] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.sh\n'}
+[38.045687] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.zsh\n'}
+[38.045986] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.dsv\n'}
+[38.046179] (hw7) StdoutLine: {'line': b'-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.dsv\n'}
+[38.046335] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/packages/hw7\n'}
+[38.046522] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config.cmake\n'}
+[38.046607] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config-version.cmake\n'}
+[38.046675] (hw7) StdoutLine: {'line': b'-- Up-to-date: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.xml\n'}
+[38.050765] (hw7) CommandEnded: {'returncode': 0}
+[38.094647] (hw7) JobEnded: {'identifier': 'hw7', 'rc': 0}
+[38.096839] (-) EventReactorShutdown: {}

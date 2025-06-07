@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/background_remover.dir/src/background_remover.cpp.o[0m
+[01m[K/home/hungatec/rob499_ws/src/hw7/src/background_remover.cpp:104:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  104 |         }
+      |          [01;31m[K^[m[K      
+      |                [32m[K;[m[K
+[01m[K/home/hungatec/rob499_ws/src/hw7/src/background_remover.cpp:105:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  105 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/background_remover.dir/build.make:76: CMakeFiles/background_remover.dir/src/background_remover.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/background_remover.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

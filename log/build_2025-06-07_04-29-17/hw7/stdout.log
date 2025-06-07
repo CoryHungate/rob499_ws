@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/background_remover.dir/src/background_remover.cpp.o[0m
+[100%] [32m[1mLinking CXX executable background_remover[0m
+[100%] Built target background_remover
+-- Install configuration: ""
+-- Installing: /home/hungatec/rob499_ws/install/hw7/lib/hw7/background_remover
+-- Set non-toolchain portion of runtime path of "/home/hungatec/rob499_ws/install/hw7/lib/hw7/background_remover" to ""
+-- Installing: /home/hungatec/rob499_ws/install/hw7/include/hw7/include
+-- Installing: /home/hungatec/rob499_ws/install/hw7/include/hw7/include/hw7
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/package_run_dependencies/hw7
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/parent_prefix_path/hw7
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.sh
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/ament_prefix_path.dsv
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.sh
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/environment/path.dsv
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.bash
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.sh
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.zsh
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/local_setup.dsv
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.dsv
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/ament_index/resource_index/packages/hw7
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config.cmake
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/cmake/hw7Config-version.cmake
+-- Installing: /home/hungatec/rob499_ws/install/hw7/share/hw7/package.xml
